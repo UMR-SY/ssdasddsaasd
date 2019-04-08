@@ -100,7 +100,19 @@ bot.on("message", function(message) { // when a message is sent
   logs.send(logsEmbed);
 
     }  
-	
+  
+if (command == "suggest") {
+       var suggest = args.join(" ")
+    if(!suggest) return message.reply("Scrie sugestia ta")
+   let logs = message.guild.channels.find("name", "sugestii").send(`\`\`\`${suggest}\`\`\`\nSugestie de la **${message.author.tag}**`).then(msg => {
+   msg.react("✅")
+   msg.react("❎")
+   }) 
+  
+  
+    
+    message.delete(); 
+}
 if (command == "unmute") { // creates the command unmute
         var unmutedmember = message.mentions.members.first(); // sets the mentioned user to the var kickedmember
         if (!unmutedmember) return message.reply("Va rugam sa mentionati un membru valabil al acestui server!") // if there is no kickedmmeber var
