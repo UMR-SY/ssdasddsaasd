@@ -45,7 +45,7 @@ bot.on("message", function(message) { // when a message is sent
             .addField(" - /stats", "Arata informatiile mele")
 	    .addField(" - /unmute", "Unmute unui membru") //sets a field
 			.setColor("000000")
-            .setFooter("Comanda executata de: " + message.author.username, message.author.avatarURL);
+            .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
 		
 	}
@@ -104,7 +104,7 @@ bot.on("message", function(message) { // when a message is sent
 if (command == "suggest") {
        var suggest = args.join(" ")
     if(!suggest) return message.reply("Scrie sugestia ta")
-   let logs = message.guild.channels.find("name", "sugestii").send(`\`\`\`${suggest}\`\`\`\nSugestie de la **${message.author.tag}**`).then(msg => {
+   let logs = message.guild.channels.find("name", "sugestii").send(`\`\`\`${suggest}\`\`\`\nSugestie de la ${message.author.tag}`).then(msg => {
    msg.react("✅")
    msg.react("❎")
    }) 
