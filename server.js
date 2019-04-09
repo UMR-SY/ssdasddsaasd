@@ -108,7 +108,7 @@ if (command == "suggest") {
        var suggest = args.join(" ")
     if(!suggest) return message.reply("Scrie sugestia ta")
    let logs = message.guild.channels.find("name", "sugestii").send(`\`\`\`${suggest}\`\`\`\nSugestie de la ${message.author.tag}`).then(msg => {
-   msg.react("✅")
+   msg.react(":succ:")
    msg.react("❎")
    }) 
   
@@ -133,7 +133,7 @@ if (command == "unmute") { // creates the command unmute
          let sicon = message.guild.iconURL;
          let serverembed = new Discord.RichEmbed()
          .setAuthor(message.guild.name, sicon)
-         .setFooter(`Server Creat pe • ${day}.${month}.${year}`)
+         .setFooter(`Server Creat pe • ${day}.${month}.${year
          .setColor("000000")
          .setThumbnail(sicon)
          .addField("ID Server", message.guild.id, true)
