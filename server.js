@@ -61,11 +61,10 @@ bot.on("message", function(message) { // when a message is sent
 	
     }
   
- 
-
 
 
     if (command == "ping") { // creates a command *ping
+      var pula = new Discord.RichEmbed()
         message.channel.send(`🏓 Pong! | Ping: \`${bot.pings[0]} tick/ms\` `)
     
 	}
@@ -136,7 +135,7 @@ if (command == "unmute") { // creates the command unmute
          let sicon = message.guild.iconURL;
          var pula = new Discord.RichEmbed()
          .setAuthor(message.guild.name, sicon)
-         .setFooter(`Server Creat pe • ${day}.${month}.${year}`)
+         .setField(`Server Creat pe • ${day}.${month}.${year}`)
          .setColor("000000")
          .setThumbnail(sicon)
          .addField("ID Server", message.guild.id, true)
