@@ -30,7 +30,7 @@ bot.on("message", function(message) { // when a message is sent
         var embedhelpmember = new Discord.RichEmbed() // sets a embed box to the variable embedhelpmember
             .setTitle("**Lista de comenzi**\n") // sets the title to List of Commands
             .addField(" - /help", "Afieaza acest mesaj ") // sets the first field to explain the command *help
-            .addField(" - /info", "Spune informatii despre mine :grin:") // sets the field information about the command *info
+            .addField(" - /info", "Spune informatii despre mine ") // sets the field information about the command *info
             .addField(" - /ping", "Testeaza ping-ul bot-ului") // sets the second field to explain the command *ping
             .addField(" - /serverinfo", "Vezi informatiile server-ului!  ") // sets the third field to explain the command *cookie
             .addField(" - /8ball", "Raspunde la toate intrebarile dvs.! ") // sets the field to the 8ball command
@@ -44,6 +44,7 @@ bot.on("message", function(message) { // when a message is sent
             .addField(" - /kick", "Kick unui membru dorit cu un motiv ") //sets a field
             .addField(" - /stats", "Arata informatiile mele")
 	    .addField(" - /unmute", "Unmute unui membru") //sets a field
+      .addField(" - /suggest" , "Scrie o sugestie server ului")
 			.setColor("000000")
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
