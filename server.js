@@ -179,6 +179,7 @@ if (command == "unmute") { // creates the command unmute
     if (command == "say") { // creates command say
      var sayMessage = message.content.substring(4)
         message.channel.send(sayMessage);
+
     }
 
     if (command === "stats") {
