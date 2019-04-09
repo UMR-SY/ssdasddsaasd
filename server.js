@@ -1,6 +1,6 @@
 const Discord = require("discord.js"); // use discord.js
 
-const PREFIX = "/" // bot's prefix
+const PREFIX = "," // bot's prefix
 
 
 var eightball = [ // sets the answers to an eightball
@@ -13,7 +13,7 @@ var bot = new Discord.Client(); // sets Discord.Client to bot
 
 bot.on("ready", function() { // when the bot starts up, set its game to Use *help and tell the console "Booted up!"
 bot.user.setStatus("dnd")
-  bot.user.setActivity("/help",   { type: "Listening"});
+bot.user.setActivity(",help",   { type: "Listening"});
     console.log("pornit gata,gata noob") // messages the console Booted up!
 });
 
@@ -29,23 +29,23 @@ bot.on("message", function(message) { // when a message is sent
     if (command == "help") { // creates a command *help
         var embedhelpmember = new Discord.RichEmbed() // sets a embed box to the variable embedhelpmember
             .setTitle("**Lista de comenzi**\n") // sets the title to List of Commands
-            .addField(" - /help", "Afieaza acest mesaj ") // sets the first field to explain the command *help
-            .addField(" - /info", "Spune informatii despre mine ") // sets the field information about the command *info
-            .addField(" - /ping", "Testeaza ping-ul bot-ului") // sets the second field to explain the command *ping
-            .addField(" - /serverinfo", "Vezi informatiile server-ului!  ") // sets the third field to explain the command *cookie
-            .addField(" - /8ball", "Raspunde la toate intrebarile dvs.! ") // sets the field to the 8ball command
-			.addField(" - /avatar", "iti arata avatarul care il ai!")			// arata avatarul care il ai
-			.addField(" - /invite", "Poti sa ma inviti pe Servarul tau!")
+            .addField(" - ,help", "Afieaza acest mesaj ") // sets the first field to explain the command *help
+            .addField(" - ,info", "Spune informatii despre mine ") // sets the field information about the command *info
+            .addField(" - ,ping", "Testeaza ping-ul bot-ului") // sets the second field to explain the command *ping
+            .addField(" - ,serverinfo", "Vezi informatiile server-ului!  ") // sets the third field to explain the command *cookie
+            .addField(" - ,8ball", "Raspunde la toate intrebarile dvs.! ") // sets the field to the 8ball command
+			.addField(" - ,avatar", "iti arata avatarul care il ai!")			// arata avatarul care il ai
+			.addField(" - ,invite", "Poti sa ma inviti pe Servarul tau!")
 			.setColor("000000")
             .setFooter("Creatorul acestui bot este Skrib#0008") // sets the footer to "You need help, do you?"
-            .addField(" - /say", "Face botul sa spuna ce vrei  ")
-            .addField(" - /mute", "Mute un membru dorit cu un motiv ") // sets a field
-            .addField(" - /ban", "Interzice accesul unui membru ")
-            .addField(" - /kick", "Kick unui membru dorit cu un motiv ") //sets a field
-            .addField(" - /stats", "Arata informatiile mele")
-	    .addField(" - /unmute", "Unmute unui membru") //sets a field
-      .addField(" - /suggest" , "Scrie o sugestie server ului")
-      .addField(" - /servers" , "Iti arata serverele mele ")
+            .addField(" - ,say", "Face botul sa spuna ce vrei  ")
+            .addField(" - ,mute", "Mute un membru dorit cu un motiv ") // sets a field
+            .addField(" - ,ban", "Interzice accesul unui membru ")
+            .addField(" - ,kick", "Kick unui membru dorit cu un motiv ") //sets a field
+            .addField(" - ,stats", "Arata informatiile mele")
+	    .addField(" - ,unmute", "Unmute unui membru") //sets a field
+      .addField(" - ,suggest" , "Scrie o sugestie server ului")
+      .addField(" - ,servers" , "Iti arata serverele mele ")
 			.setColor("000000")
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
