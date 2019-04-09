@@ -45,6 +45,7 @@ bot.on("message", function(message) { // when a message is sent
             .addField(" - /stats", "Arata informatiile mele")
 	    .addField(" - /unmute", "Unmute unui membru") //sets a field
       .addField(" - /suggest" , "Scrie o sugestie server ului")
+      .addField(" - /servers" , "Iti arata serverele mele ")
 			.setColor("000000")
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
@@ -59,6 +60,8 @@ bot.on("message", function(message) { // when a message is sent
 	message.channel.send(embedhelpmember);
 	
     }
+  
+ 
 
 
 
@@ -108,7 +111,7 @@ if (command == "suggest") {
        var suggest = args.join(" ")
     if(!suggest) return message.reply("Scrie sugestia ta")
    let logs = message.guild.channels.find("name", "sugestii").send(`\`\`\`${suggest}\`\`\`\nSugestie de la ${message.author.tag}`).then(msg => {
-   msg.react("")
+   msg.react("✅")
    msg.react("❎")
    }) 
   
@@ -148,6 +151,20 @@ if (command == "unmute") { // creates the command unmute
     message.channel.send(pula);
   
     }  
+   if (command == "servers") {
+
+          let bicon = bot.user.displayAvatarURL;
+    let string = '';
+    bot.guilds.forEach(guild => {
+    string += guild.name + '\n';})
+    let bt = bot.user.username;
+    let botembed = new Discord.RichEmbed()
+        .setColor("#000FF")
+        .addField("Tudorel este in serverele:", string)
+        .setTimestamp()
+        .setFooter("Comanda executata de: " + message.author.username, message.author.avatarURL);
+    message.channel.send(botembed);
+}
     
     if (command == "helos") { // creates the command cookie
         if (args[1]) message.channel.send(message.author.toString() + " i-ai trimis lui " + args[1].toString() + " un helos :ok_hand::skin-tone-1: ") // sends the message saying someone has given someone else a cookie if someone mentions someone else
