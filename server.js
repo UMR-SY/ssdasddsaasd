@@ -6,7 +6,7 @@ const PREFIX = "," // bot's prefix
 var eightball = [ // sets the answers to an eightball
   "True",
   "False",
-  "Idk",
+  "Idfk",
 ]
 
 var bot = new Discord.Client(); // sets Discord.Client to bot
