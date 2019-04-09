@@ -63,7 +63,7 @@ bot.on("message", function(message) { // when a message is sent
 
 
     if (command == "ping") { // creates a command *ping
-        message.channel.send(`Ping: \`${bot.pings[0]} tick/ms\` `)
+        message.channel.send(`🏓 Pong! | Ping: \`${bot.pings[0]} tick/ms\` `)
     
 	}
 	  if (command == "avatar") {
