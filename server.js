@@ -188,7 +188,7 @@ if (command == "unmute") { // creates the command unmute
   .addField("Servers and Users", `**Servers**: ${bot.guilds.size} **Users**: ${bot.users.size}`)
   .addField("Ram Usage" , Math.round(process.memoryUsage().heapUsed /4000/4000) + "/4000 MB", true)
   .addField("Ping" , `${bot.pings[0]}`)
-  .setFooter("Tudorel")
+  .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL)
   return message.channel.send(drq)
 
 	}
