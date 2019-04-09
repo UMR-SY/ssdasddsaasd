@@ -60,6 +60,8 @@ bot.on("message", function(message) { // when a message is sent
 	
     }
 
+
+
     if (command == "ping") { // creates a command *ping
         message.channel.send(`Ping: \`${bot.pings[0]} tick/ms\` `)
     
@@ -166,7 +168,7 @@ if (command == "unmute") { // creates the command unmute
    var drq = new Discord.RichEmbed()
   .addField("Proceses", `**NodeJS**: ${process.version}\n**Discord.JS**: ${require('discord.js').version}`)
    .setColor(1337)
-  .addField("Servers and Users", `**Servers** :${bot.guilds.size} **Users**: ${bot.users.size}`)
+  .addField("Servers and Users", `**Servers**: ${bot.guilds.size} **Users**: ${bot.users.size}`)
   .addField("Ram Usage" , Math.round(process.memoryUsage().heapUsed /4000/4000) + "/4000 MB", true)
   .addField("Ping" , `${bot.pings[0]}`)
   .setFooter("Tudorel")
