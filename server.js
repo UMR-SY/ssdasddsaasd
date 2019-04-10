@@ -76,8 +76,8 @@ bot.on("message", function(message) { // when a message is sent
     
 	}
 	  if (command == "avatar") {
-        message.channel.send(message.author.avatarURL)
-	
+        
+	message.mentions.users.first() || message.author; var avatarembed = new Discord.RichEmbed() .setAuthor(`${uUser.username}`) .setColor(`#8bd0e0`) .setImage(uUser.displayAvatarURL); message.channel.send(avatarembed); }
 	  }
 	  
   if (command == "invite") {
