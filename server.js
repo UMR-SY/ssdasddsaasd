@@ -80,7 +80,7 @@ bot.on("message", function(message) { // when a message is sent
 
     var avatarembed = new Discord.RichEmbed()
         .setAuthor(`${uUser.username}`)
-        .setColor(1337)
+        .setColor(000000)
         .setImage(uUser.displayAvatarURL);
     message.channel.send(avatarembed);
       
