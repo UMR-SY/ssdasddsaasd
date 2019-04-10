@@ -76,9 +76,15 @@ bot.on("message", function(message) { // when a message is sent
     
 	}
 	  if (command == "avatar") {
-        
-	message.mentions.users.first() || message.author; var avatarembed = new Discord.RichEmbed() .setAuthor(`${uUser.username}`) .setColor(`#8bd0e0`) .setImage(uUser.displayAvatarURL); message.channel.send(avatarembed); }
-	  }
+          let uUser = message.mentions.users.first() || message.author;
+
+    var avatarembed = new Discord.RichEmbed()
+        .setAuthor(`${uUser.username}`)
+        .setColor(1337)
+        .setImage(uUser.displayAvatarURL);
+    message.channel.send(avatarembed);
+      
+    }
 	  
   if (command == "invite") {
     message.channel.send(`https://discordapp.com/api/oauth2/authorize?client_id=547815760660004870&permissions=8&scope=bot`);
