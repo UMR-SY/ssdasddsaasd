@@ -117,7 +117,7 @@ bot.on("message", function(message) { // when a message is sent
 
   logs.send(logsEmbed);
 
-    }  
+   }  
   
 if (command == "suggest") {
        var suggest = args.join(" ")
