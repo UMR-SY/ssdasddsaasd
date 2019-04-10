@@ -63,7 +63,7 @@ bot.on("message", function(message) { // when a message is sent
 	var embedhelpmember = new Discord.RichEmbed()
 	.setTitle("**INFORMATII**")
         .setColor(1337)
-	.addField("Buna!Numele meu este Tudorel si sunt aici pentru a va ajuta! Puteti utiliza comanda /help  pentru a vedea toate comenzile mele! Daca aveti probleme cu mine, puteti contacta un administrator! :smile:", "Acestea sunt informatiile mele!")
+	.addField("Buna!Numele meu este Tudorel si sunt aici pentru a va ajuta! Puteti utiliza comanda ,help  pentru a vedea toate comenzile mele! Daca aveti probleme cu mine, puteti contacta un administrator! :smile:", "Acestea sunt informatiile mele!")
 	message.channel.send(embedhelpmember);
 	
     }
