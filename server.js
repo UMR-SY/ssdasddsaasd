@@ -95,7 +95,10 @@ bot.on("message", function(message) { // when a message is sent
 
   let logs = message.guild.channels.find("name", "logs");
   if(!logs) return message.channel.send("Could not find a logs channel.");
-
+     
+	if (!message.member.hasPermission("BAN_MEMBERS"))
+		message.reply("You don't have permission!");
+     
   let user = message.mentions.users.first();
   if(!user) return message.reply("Va rugam sa mentionati un username pentru al bana!");
 
