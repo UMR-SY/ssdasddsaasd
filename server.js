@@ -198,6 +198,8 @@ if (command == "unmute") { // creates the command unmute
    var drq = new Discord.RichEmbed()
   .addField("Proceses", `**NodeJS**: ${process.version}\n**Discord.JS**: ${require('discord.js').version}`)
    .setColor(1337)
+   
+   
   .addField("Servers and Users", `**Servers**: ${bot.guilds.size} **Users**: ${bot.users.size}`)
   .addField("Ram Usage" , Math.round(process.memoryUsage().heapUsed /512/512) + "/512 MB", true)
   .addField("Ping" , `${bot.pings[0]}`)
