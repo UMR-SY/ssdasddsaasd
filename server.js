@@ -93,22 +93,11 @@ bot.on("message", function(message) { // when a message is sent
 	
 	 if (command == "ban") {
 
-  let bannedUser = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
-	if (!bannedUser) return message.reply("Couldn't find user.");
-	let reason = args.join(" ").slice(22);
-	
-	if (!message.member.hasPermission("BAN_MEMBERS"))
-		message.reply("You don't have permission!");
-	if (bannedUser.hasPermission("KICK_MEMBERS")) 
-		message.reply("This person cannot be banned");
-	
-	let bannedChannel = message.guild.channels.find(`name`, "logs");
-	if (bannedChannel) {
-		let bannedEmbed = new Discord.RichEmbed().setTitle("Banned").setColor("#ff0000").addField("Banned User", bannedUser).addField("Banned By", message.author).addField("Reason", reason);
-		bannedChannel.send(bannedEmbed);
+  
+    }
+edChannel.send(bannedEmbed);
 	}
 	message.guild.member(bannedUser).ban(reason);
-
 
 
       
