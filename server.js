@@ -97,7 +97,7 @@ bot.on("message", function(message) { // when a message is sent
   if(!logs) return message.channel.send("Could not find a logs channel.");
 
   let user = message.mentions.users.first();
-  if(!user) return message.reply("Va rugam sa mentionati un username pentru a da ban!");
+  if(!user) return message.reply("Va rugam sa mentionati un username pentru al bana!");
 
   let reason = args.join(" ");
   if(!reason) reason = "No reason given";
@@ -204,6 +204,7 @@ if (command == "unmute") { // creates the command unmute
   .addField("Ram Usage" , Math.round(process.memoryUsage().heapUsed /512/512) + "/512 MB", true)
   .addField("Ping" , `${bot.pings[0]}`)
   .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL)
+   .addField
   return message.channel.send(drq)
 
 	}
