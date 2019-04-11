@@ -148,12 +148,12 @@ if (command == "unmute") { // creates the command unmute
          let sicon = message.guild.iconURL;
          var pula = new Discord.RichEmbed()
          .setAuthor(message.guild.name, sicon)
-         .setFooter(`Server Creat pe • ${day}.${month}.${year}`)
          .setColor("000000")
          .setThumbnail(sicon)
          .addField("ID Server", message.guild.id, true)
          .addField("Nume Server", message.guild.name, true)
          .addField("Detinator", message.guild.owner.user.tag, true)
+         .addField("Server Creat pe " , `${day}.${month}.${year}`)
          .addField("Regiune", message.guild.region, true)
          .addField("Canale", message.guild.channels.size, true)
          .addField("Membrii", message.guild.memberCount, true)
@@ -204,7 +204,7 @@ if (command == "unmute") { // creates the command unmute
   .addField("Ram Usage" , Math.round(process.memoryUsage().heapUsed /512/512) + "/512 MB", true)
   .addField("Ping" , `${bot.pings[0]}`)
   .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL)
-   .addField
+   .addField("Owner:", "<@482833730486927381>")
   return message.channel.send(drq)
 
 	}
