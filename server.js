@@ -131,6 +131,13 @@ if (command == "suggest") {
     
     message.delete(); 
 }
+  if (command == "purge") {
+    
+
+
+//you copyig my code casue I got errors
+
+}
 if (command == "unmute") { // creates the command unmute
         var unmutedmember = message.mentions.members.first(); // sets the mentioned user to the var kickedmember
         if (!unmutedmember) return message.reply("Va rugam sa mentionati un membru valabil al acestui server!") // if there is no kickedmmeber var
@@ -153,7 +160,7 @@ if (command == "unmute") { // creates the command unmute
          .addField("ID Server", message.guild.id, true)
          .addField("Nume Server", message.guild.name, true)
          .addField("Detinator", message.guild.owner.user.tag, true)
-         .addField("Server Creat pe " , `${day}.${month}.${year}`)
+         .addField("Server-ul a fost facut in data de " , `${day}.${month}.${year}`)
          .addField("Regiune", message.guild.region, true)
          .addField("Canale", message.guild.channels.size, true)
          .addField("Membrii", message.guild.memberCount, true)
@@ -253,4 +260,4 @@ if (command == "unmute") { // creates the command unmute
 });
 
 
-bot.login('NTQ3ODE1NzYwNjYwMDA0ODcw.D1b0mA.LPIN7lqlGi3oW2r84AXHacSjCfA'); // connects to the bot
+bot.login('NTQ3ODE1NzYwNjYwMDA0ODcw.XK7R7Q.NZktR6itiqI3P9jTl0MwdPMEDno'); // connects to the bot
