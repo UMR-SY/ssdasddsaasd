@@ -1,6 +1,7 @@
 const Discord = require("discord.js"); // use discord.js
 
-const PREFIX = "," // bot's prefix
+
+let PREFIX = "," // bot's prefix
 
 
 var eightball = [ // sets the answers to an eightball
@@ -140,12 +141,8 @@ if (command == "suggest") {
     
     message.delete(); 
 }
-  if (command == "purge") {
-    
+  if (command == "userinfo") {
 
-
-
-//you copyig my code casue I got errors
 
 }
 if (command == "unmute") { // creates the command unmute
@@ -221,11 +218,12 @@ if (command == "unmute") { // creates the command unmute
   .addField("Ping" , `${bot.pings[0]}`)
   .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL)
    .addField("Owner:", "<@482833730486927381>")
+   .addField("Cpu Usage:", "0.0%")
   return message.channel.send(drq)
 
 	}
-	
- 
+
+
 	 if (command == "mute") { // creates the command mute
         var mutedmember = message.mentions.members.first(); // sets the mentioned user to the var kickedmember
         if (!mutedmember) return message.reply("Va rugam sa mentionati un membru al acestui server!") // if there is no kickedmmeber var
