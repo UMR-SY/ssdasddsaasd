@@ -93,32 +93,37 @@ bot.on("message", function(message) { // when a message is sent
 	
 	 if (command == "ban") {
 
-  let logs = message.guild.channels.find("name", "logs");
-  if(!logs) return message.channel.send("Could not find a logs channel.");
-     
+  let bannedUser = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
+	if (!bannedUser) return message.reply("Couldn't find user.");
+	let reason = args.join(" ").slice(22);
+	
 	if (!message.member.hasPermission("BAN_MEMBERS"))
 		message.reply("You don't have permission!");
-     
-  let user = message.mentions.users.first();
-  if(!user) return message.reply("Va rugam sa mentionati un username pentru al bana!");
+	if (bannedUser.hasPermission("KICK_MEMBERS")) 
+		message.reply("This person cannot be banned");
+	
+	let bannedChannel = message.guild.channels.find(`name`, "logs");
+	if (bannedChannel) {
+		let bannedEmbed = new Discord.RichEmbed().setTitle("Banned").setColor("#ff0000").addField("Banned User", bannedUser).addField("Banned By", message.author).addField("Reason", reason);
+		bannedChannel.send(bannedEmbed);
+	}
+	message.guild.member(bannedUser).ban(reason);
 
-  let reason = args.join(" ");
-  if(!reason) reason = "No reason given";
 
-  message.guild.member(user).ban(reason);
 
-  let logsEmbed = new Discord.RichEmbed() // Master is MessageEmbed
-  .setTitle("User Banned")
-  .setFooter("User Ban Logs")
-  .setColor("RANDOM")
-  .setTimestamp()
-  .addField("Banned User:", `${user}, ID: ${user.id}`)
-  .addField("Reason:", reason)
-  .addField("Moderator:", `${message.author}, ID: ${message.author.id}`)
-  .addField("Time:", message.createdAt)
-  .addField("Channel:", message.channel)
+      
 
-  logs.send(logsEmbed);
+
+
+    
+
+ 
+    
+      
+
+
+
+
 
    }  
   
