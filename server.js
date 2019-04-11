@@ -93,30 +93,31 @@ bot.on("message", function(message) { // when a message is sent
 	
 	 if (command == "ban") {
 
-    module.exports.run = async (bot, message, args) => {
-    if(!message.guild.member(message.author.id).hasPermission('BAN_MEMBERS')) return message.channel.send(":x:  **| Sorry, you don't have permissions to use this!**");
-  
-    let member = message.mentions.members.first() || message.guild.members.get(args[0]);
-    if(!member)
-        return message.channel.send(":x:  **| Please mention a valid member!**");
-    if(!member.bannable) 
-        return message.channel.send(":x:  **| I cannot ban this user!**");
-  
-  let reason = args.slice(1).join(' ');
-  if(!reason) reason = "No reason!";
+  let logs = message.guild.channels.find("name", "logs");
+  if(!logs) return message.channel.send("Could not find a logs channel.");
 
-  await member.ban(reason)
-    .catch(error => message.channel.send(`Error: ${error}`).then(m => m.delete(10000)));
+  let user = message.mentions.users.first();
+  if(!user) return message.reply("Please mention a user");
 
-    let log = bot.channels.get('563188392947351552');
-    log.send(new Discord.RichEmbed()
-        .setTitle(`User Banned`)
-        .addField('User', `${member.user.tag}`)
-        .addField('Admin', `${message.author.tag}`)
-        .addField('Reason', `${reason}`)
-        .setColor('#25c059'))
-  message.channel.send(`:white_check_mark: **| ${member.user.tag} (${member.user.id}) has been banned by ${message.author.tag}!**\nReason: \`${reason}\``);
-    }
+  let reason = args.join(" ");
+  if(!reason) reason = "No reason given";
+
+  message.guild.member(user).ban(reason);
+
+  let logsEmbed = new Discord.RichEmbed() // Master is MessageEmbed
+  .setTitle("User Banned")
+  .setFooter("User Ban Logs")
+  .setColor("RANDOM")
+  .setTimestamp()
+  .addField("Banned User:", `${user}, ID: ${user.id}`)
+  .addField("Reason:", reason)
+  .addField("Moderator:", `${message.author}, ID: ${message.author.id}`)
+  .addField("Time:", message.createdAt)
+  .addField("Channel:", message.channel)
+
+  logs.send(logsEmbed);
+    
+        
 
       
     
