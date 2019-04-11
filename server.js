@@ -169,7 +169,7 @@ if (command == "unmute") { // creates the command unmute
          .setThumbnail(sicon)
          .addField("ID Server", message.guild.id, true)
          .addField("Nume Server", message.guild.name, true)
-         .addField("Detinator", message.guild.owner.user.tag, true)
+         .addField("Ownership", message.guild.owner.user.tag, true)
          .addField("Server-ul a fost facut in data de " , `${day}.${month}.${year}`)
          .addField("Regiune", message.guild.region, true)
          .addField("Canale", message.guild.channels.size, true)
