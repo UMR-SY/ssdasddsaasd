@@ -93,27 +93,33 @@ bot.on("message", function(message) { // when a message is sent
 	
 	 if (command == "ban") {
 
-      // Most of this command is identical to kick, except that here we'll only let admins do it.
-    // In the real world mods could ban too, but this is just an example, right? ;)
-    if(!message.member.roles.some(r=>["Members"].includes(r.name)) )
-      return message.reply("Sorry, you don't have permissions to use this!");
-    
-    let member = message.mentions.members.first();
+    module.exports.run = async (bot, message, args) => {
+    if(!message.guild.member(message.author.id).hasPermission('BAN_MEMBERS')) return message.channel.send(":x:  **| Sorry, you don't have permissions to use this!**");
+  
+    let member = message.mentions.members.first() || message.guild.members.get(args[0]);
     if(!member)
-      return message.reply("Please mention a valid member of this server");
+        return message.channel.send(":x:  **| Please mention a valid member!**");
     if(!member.bannable) 
-      return message.reply("I cannot ban this user! Do they have a higher role? Do I have ban permissions?");
+        return message.channel.send(":x:  **| I cannot ban this user!**");
+  
+  let reason = args.slice(1).join(' ');
+  if(!reason) reason = "No reason!";
 
-    let reason = args.slice(1).join(' ');
-    if(!reason) reason = "No reason provided";
-    
-     member.ban(reason)
-      .catch(error => message.reply(`Sorry ${message.author} I couldn't ban because of : ${error}`));
-    message.reply(`${member.user.tag} has been banned by ${message.author.tag} because: ${reason}`);
+  await member.ban(reason)
+    .catch(error => message.channel.send(`Error: ${error}`).then(m => m.delete(10000)));
 
+    let log = bot.channels.get('563188392947351552');
+    log.send(new Discord.RichEmbed()
+        .setTitle(`User Banned`)
+        .addField('User', `${member.user.tag}`)
+        .addField('Admin', `${message.author.tag}`)
+        .addField('Reason', `${reason}`)
+        .setColor('#25c059'))
+  message.channel.send(`:white_check_mark: **| ${member.user.tag} (${member.user.id}) has been banned by ${message.author.tag}!**\nReason: \`${reason}\``);
+    }
 
       
-
+    
 
 
   
