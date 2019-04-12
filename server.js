@@ -184,7 +184,7 @@ if (command == "unmute") { // creates the command unmute
          let sicon = message.guild.iconURL;
          var pula = new Discord.RichEmbed()
          .setAuthor(message.guild.name, sicon)
-         .setColor("000000")
+         .setColor('RANDOM')
          .setThumbnail(sicon)
          .addField("ID Server", message.guild.id, true)
          .addField("Nume Server", message.guild.name, true)
@@ -196,7 +196,7 @@ if (command == "unmute") { // creates the command unmute
          .addField("Boti", message.guild.members.filter(m => m.user.bot).size, true)
          .addField("Online", online.size, true)
          .addField("Roluri", message.guild.roles.size, true);
-    message.channel.send(pula);
+         message.channel.send(pula)
   
     }  
    if (command == "servers") {
