@@ -143,8 +143,10 @@ if (command == "suggest") {
     message.delete(); 
 }
   
-  if (command == "eval") {
+  if (command == "meme") {
          
+    
+        
     
 }
   if (command == "userinfo") {
