@@ -1,5 +1,5 @@
 const Discord = require("discord.js"); // use discord.js
-
+const moment = require('moment');
 
 let PREFIX = "," // bot's prefix
 
@@ -54,6 +54,7 @@ bot.on("message", function(message) { // when a message is sent
 	   // .addField(" - ,unmute", "Unmute unui membru") //sets a field
       //.addField(" - ,suggest" , "Scrie o sugestie server ului")
       .addField(" - ,servers" , "Iti arata serverele mele ")
+      .addField(" - ,userinfo", "Iti arata informatiile tale")
 			.setColor("000000")
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
@@ -142,7 +143,28 @@ if (command == "suggest") {
     message.delete(); 
 }
   if (command == "userinfo") {
+let user;
+    if (message.mentions.users.first()) {
+      user = message.mentions.users.first();
+    } else {
+        user = message.author;
+    }
+    const member = message.guild.member(user);
 
+    const embed = new Discord.RichEmbed()
+		.setColor('RANDOM')
+		.setThumbnail(user.avatarURL)
+		.setTitle(`${user.username}#${user.discriminator}`)
+		.addField("ID:", `${user.id}`, true)
+		.addField("Nickname:", `${member.nickname !== null ? `${member.nickname}` : 'None'}`, true)
+		.addField("Created At:", `${moment.utc(user.createdAt).format('dddd, MMMM Do YYYY, HH:mm:ss')}`, true)
+		.addField("Joined Server:", `${moment.utc(member.joinedAt).format('dddd, MMMM Do YYYY, HH:mm:ss')}`, true)
+		.addField("Bot:", `${user.bot}`, true)
+		.addField("Status:", `${user.presence.status}`, true)
+		.addField("Game:", `${user.presence.game ? user.presence.game.name : 'None'}`, true)
+		.addField("Roles:", member.roles.map(roles => `${roles.name}`).join(', '), true)
+		.setFooter(`Replying to ${message.author.username}#${message.author.discriminator}`)
+     message.channel.send({embed});
 
 }
 if (command == "unmute") { // creates the command unmute
