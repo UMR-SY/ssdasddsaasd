@@ -47,6 +47,8 @@ bot.on("message", function(message) { // when a message is sent
       .setColor("000000")
             .setFooter("Creatorul acestui bot este Skrib#0008") // sets the footer to "You need help, do you?"
       .addField(" - ,userinfo", "Iti arata informatiile tale")
+      .addField(" - ,kiss", "Trimiti un kiss unei persoane")
+      .addField(" - ,dog", "Iti arata un caine " )
 			.setColor("000000")
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
@@ -114,13 +116,13 @@ bot.on("message", function(message) { // when a message is sent
         
 
       
-    
+   }
 
 
   
 
 
-   }  
+  
   
 if (command == "suggest") {
        var suggest = args.join(" ")
@@ -135,8 +137,20 @@ if (command == "suggest") {
     message.delete(); 
 }
   
-  if (command == "meme") {
-         
+  if (command == "dog") {
+ 
+let text = args.join("/");
+
+let doge = new Discord.RichEmbed()
+
+.setColor("#FFA500")
+
+.setTitle("Wow! Much doge! Such amazing!")
+
+.setImage(url="http://dogr.io/"+text+"/.png?split=false")
+
+.setTimestamp()
+ message.channel.send(doge)
     
         
     
@@ -198,6 +212,11 @@ if (command == "unmute") { // creates the command unmute
          message.channel.send(pula)
   
     }  
+  
+  if (command == "purge") {
+    
+    
+}
    if (command == "servers") {
 
           let bicon = bot.user.displayAvatarURL;
