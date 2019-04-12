@@ -112,6 +112,13 @@ bot.on("message", function(message) { // when a message is sent
   if (command == "invite") {
     message.channel.send(`https://discordapp.com/api/oauth2/authorize?client_id=547815760660004870&permissions=8&scope=bot`);
   
+  }
+  if (command == "hug") {
+    let hug = new Discord.RichEmbed()
+    .addField(`${message.author}`,`l-a imbratisat pe ${user}`)
+    .setImage(url="https://giphy.com/gifs/youblewit-you-blew-it-l4FGy5UyZ1KnVZ7BC")
+    .setTimestamp()
+  message.channel.send(hug)
     }
 	
 	 if (command == "ban") {
