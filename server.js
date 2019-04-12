@@ -41,7 +41,7 @@ bot.on("message", function(message) { // when a message is sent
       .addField(" - ,invite", "Poti sa ma inviti pe Serverul tau!")
       .addField(" - ,stats ", "Iti arata informatiile mele")
       .addField(" - ,suggest", "Scrii o sugestie server-ului")
-      .addField(" - ,8ball","Raspunde la toate intrebarile dvs. !")
+      .addField(" - ,ask","Raspunde la toate intrebarile dvs. !")
       .addField(" - ,ping", "Tasteaza ping-ul bot-ului")
       .addField(" - ,info", "Spune informatii despre mine ")
       .setColor("000000")
@@ -49,6 +49,7 @@ bot.on("message", function(message) { // when a message is sent
       .addField(" - ,userinfo", "Iti arata informatiile tale")
       .addField(" - ,kiss", "Trimiti un kiss unei persoane")
       .addField(" - ,dog", "Iti arata un caine " )
+      .addField(" - ,inverse", "Scrie cuvantul invers un cuvant")
 			.setColor("000000")
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
@@ -213,8 +214,44 @@ if (command == "unmute") { // creates the command unmute
   
     }  
   
-  if (command == "purge") {
-    
+  if (command == "inverse") {
+     if(!args[0]) return message.channel.send('Correct usage: **$reverse (text to reverse)**');
+
+
+
+  function reverseString(str) {
+
+      return str.split("").reverse().join("");
+
+  }
+
+
+
+  let sreverse = reverseString(args.join(' '))
+
+   
+
+  if(args[0] === sreverse) {
+
+  
+
+  sreverse = `${args.join(' ')}  Wait... You broke it!`
+
+  
+
+  }
+
+  const reverseEmbed = new Discord.RichEmbed()
+
+  .setAuthor(`${message.author.tag}`, message.author.avatarURL)
+
+  .setColor(0xFFF000)
+
+  .addField('Input: ', '```' + `${args.join(' ')}` + '```')
+
+  .addField('Output: ', '```' + `${sreverse}` + '```')
+
+  message.channel.send({embed: reverseEmbed})
     
 }
    if (command == "servers") {
@@ -237,9 +274,9 @@ if (command == "unmute") { // creates the command unmute
         else message.channel.send("**Cui vrei sa ii dai un kiss?**") // sends the error message if no-one is mentioned
     }
 
-    if (command == "8ball") { // creates the command 8ball
+    if (command == "ask") { // creates the command 8ball
         if (args[1] != null) message.reply(eightball[Math.floor(Math.random() * eightball.length).toString(16)]); // if args[1], post random answer
-        else message.channel.send("Ummmm, care e intrebarea ta? :rolling_eyes: (Correct usage: *8ball [question])"); // if not, error
+        else message.channel.send("Ummmm, care e intrebarea ta? "); // if not, error
     }
 
     if (command == "say") { // creates command say
