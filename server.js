@@ -46,14 +46,6 @@ bot.on("message", function(message) { // when a message is sent
       .addField(" - ,info", "Spune informatii despre mine ")
       .setColor("000000")
             .setFooter("Creatorul acestui bot este Skrib#0008") // sets the footer to "You need help, do you?"
-            //.addField(" - ,say", "Face botul sa spuna ce vrei  ")
-            //.addField(" - ,mute", "Mute un membru dorit cu un motiv ") // sets a field
-           // .addField(" - ,ban", "Interzice accesul unui membru ")
-            //.addField(" - ,kick", "Kick unui membru dorit cu un motiv ") //sets a field
-            //.addField(" - ,stats", "Arata informatiile mele")
-	   // .addField(" - ,unmute", "Unmute unui membru") //sets a field
-      //.addField(" - ,suggest" , "Scrie o sugestie server ului")
-      .addField(" - ,servers" , "Iti arata serverele mele ")
       .addField(" - ,userinfo", "Iti arata informatiile tale")
 			.setColor("000000")
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
