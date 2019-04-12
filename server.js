@@ -50,6 +50,8 @@ bot.on("message", function(message) { // when a message is sent
       .addField(" - ,kiss", "Trimiti un kiss unei persoane")
       .addField(" - ,dog", "Iti arata un caine " )
       .addField(" - ,inverse", "Scrie cuvantul invers un cuvant")
+      .addField(" - ,minecraft" , "Iti arata un achievement cu mesajul tau")
+      .addField(" - ,kill", "Omori un membru")  
 			.setColor("000000")
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
@@ -82,7 +84,31 @@ bot.on("message", function(message) { // when a message is sent
     message.channel.send(avatarembed);
       
     }
-	  
+	  if (command == "kill") {
+      let user = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
+
+    if(!user)
+
+    return message.channel.send("**Tag a user to run this command!**")
+
+    if(user === bot.user)
+
+    return message.channel.send(`* kill ${author.user.name} *`)
+
+    var answers = [`${user} died`, `${user} tried to outrun a train, the train won.`, `${user} died an honorable death. Death by snoo snoo.`, `${user} died eating expired and infected raw fish with the filthiest rice in the world as sushi while being constantly stabbed in the scrotum with a 9inch nail sharp enough to stab through kevlar. The soy sauce was cat piss.`,
+
+`${user} is sucked into Minecraft. ${user}, being a noob at the so called Real-Life Minecraft faces the Game Over screen.`, `Alt+F4'd ${user}.exe!`, `${user} is abducted by aliens, and the government kills them to cover it up.`, `${user} died from not eating enough ass.`, `${user} died of oversucc`, `${user} died from whacking it too much. (There's a healthy balance, boys)`,
+
+`${user} dies from posting normie memes.`, `${user} disappeared from the universe.`, `${user} dies from bad succ.`];
+
+
+
+    var answer = answers[Math.floor(Math.random() * answers.length)];
+
+    
+
+    message.channel.send(answer);
+}
   if (command == "invite") {
     message.channel.send(`https://discordapp.com/api/oauth2/authorize?client_id=547815760660004870&permissions=8&scope=bot`);
   
@@ -299,8 +325,22 @@ if (command == "unmute") { // creates the command unmute
   return message.channel.send(drq)
 
 	}
+if (command == "minecraft") {
+ 
+
+let text = args.join("+");
+
+let mc = new Discord.RichEmbed()
+
+.setColor("#FFA500")
+
+.setImage(url="https://www.minecraftskinstealer.com/achievement/a.php?i=1&h=Achievement+get%21&t="+text);
 
 
+
+message.channel.send(mc);
+       
+}
 	 if (command == "mute") { // creates the command mute
         var mutedmember = message.mentions.members.first(); // sets the mentioned user to the var kickedmember
         if (!mutedmember) return message.reply("Va rugam sa mentionati un membru al acestui server!") // if there is no kickedmmeber var
