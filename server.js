@@ -221,9 +221,9 @@ if (command == "unmute") { // creates the command unmute
     message.channel.send(botembed);
 }
     
-    if (command == "helos") { // creates the command cookie
-        if (args[1]) message.channel.send(message.author.toString() + " i-ai trimis lui " + args[1].toString() + " un helos :ok_hand::skin-tone-1: ") // sends the message saying someone has given someone else a cookie if someone mentions someone else
-        else message.channel.send("**Cui vrei sa trimiti un helos?**") // sends the error message if no-one is mentioned
+    if (command == "kiss") { // creates the command cookie
+      if (args[1]) message.channel.send(message.author.toString() + " i-a dat un kiss lui " + args[1].toString()) // sends the message saying someone has given someone else a cookie if someone mentions someone else
+        else message.channel.send("**Cui vrei sa ii dai un kiss?**") // sends the error message if no-one is mentioned
     }
 
     if (command == "8ball") { // creates the command 8ball
