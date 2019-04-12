@@ -142,6 +142,11 @@ if (command == "suggest") {
     
     message.delete(); 
 }
+  
+  if (command == "eval") {
+         
+    
+}
   if (command == "userinfo") {
 let user;
     if (message.mentions.users.first()) {
