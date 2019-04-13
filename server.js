@@ -62,7 +62,7 @@ bot.on("message", function(message) { // when a message is sent
 	var embedhelpmember = new Discord.RichEmbed()
 	.setTitle("**INFORMATII**")
         .setColor(1337)
-	.addField("Buna!Numele meu este Tudorel si sunt aici pentru a va ajuta! Puteti utiliza comanda ,help  pentru a vedea toate comenzile mele! Daca aveti probleme cu mine, puteti contacta un administrator! :smile:", "Acestea sunt informatiile mele!")
+	.addField("Buna!Numele meu este AreS si sunt aici pentru a va ajuta! Puteti utiliza comanda ,help  pentru a vedea toate comenzile mele! Daca aveti probleme cu mine, puteti contacta un administrator! :smile:", "Acestea sunt informatiile mele!")
 	message.channel.send(embedhelpmember);
 	
     }
@@ -292,7 +292,7 @@ if (command == "unmute") { // creates the command unmute
     let bt = bot.user.username;
     let botembed = new Discord.RichEmbed()
         .setColor("#000FF")
-        .addField("Tudorel este in serverele:", string)
+        .addField("AreS este in serverele:", string)
         .setTimestamp()
         .setFooter("Comanda executata de: " + message.author.username, message.author.avatarURL);
     message.channel.send(botembed);
