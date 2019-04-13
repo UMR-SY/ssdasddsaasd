@@ -49,7 +49,7 @@ bot.on("message", function(message) { // when a message is sent
       .addField(" - ,userinfo", "Iti arata informatiile tale")
       .addField(" - ,kiss", "Trimiti un kiss unei persoane")
       .addField(" - ,dog", "Iti arata un caine " )
-      .addField(" - ,inverse", "Scrie cuvantul invers un cuvant")
+      .addField(" - ,inverse", "Scrie cuvantul invers")
       .addField(" - ,minecraft" , "Iti arata un achievement cu mesajul tau")
       .addField(" - ,kill", "Omori un membru")  
 			.setColor("000000")
