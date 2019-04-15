@@ -156,9 +156,9 @@ bot.on("message", function(message) { // when a message is sent
   
   
 if (command == "suggest") {
-       var suggest = args.join(" ")
-    if(!suggest) return message.reply("Scrie sugestia pe care vrei sa o spui")
-   let logs = message.guild.channels.find("name", "sugestii").send(`\`\`\`${suggest}\`\`\`\nSugestia a fost scrisa de ${message.author.tag}`).then(msg => {
+            var suggest = args.join(" ")
+    if(!suggest) return message.reply("Scrie sugestia ta")
+   let logs = message.guild.channels.find("name", "sugestii").send(`\`\`\`${suggest}\`\`\`\nSugestie de la **${message.author.tag}**`).then(msg => {
    msg.react("✅")
    msg.react("❎")
    }) 
