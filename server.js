@@ -67,8 +67,13 @@ bot.on("message", function(message) { // when a message is sent
 	message.channel.send(embedhelpmember);
 	
     }
-  
-
+  if (command == "purge") {
+    if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("Nu aveti permisiunea pentru a executa aceasta comanda.");
+  if(!args[0]) return message.channel.send(" $purge (0/1000)");
+  message.channel.bulkDelete(args[0]).then(() => {
+  message.channel.send(` ${args[0]}  mesaje sterse`).then(msg => msg.delete(2000));
+});
+}
 
     if (command == "ping") { // creates a command *ping
       var pula = new Discord.RichEmbed()
