@@ -68,6 +68,7 @@ bot.on("message", function(message) { // when a message is sent
 	
     }
   if (command == "purge") {
+ 
     
 }
 
@@ -346,7 +347,20 @@ if (command == "unmute") { // creates the command unmute
 if(command === "purge") {
      
 
-  
+ if (isNaN(args[0])) return message.channel.send('**Please supply a valid amount of messages to purge**');
+  // This checks if args[0] is NOT a number, if not it runs the return statement which sends a message in chat.
+  // We also need to check if the number is LESS THAN 100, since 100 is the max you can delete at once.
+  if (args[0] > 100) return message.channel.send('**Please supply a number less than 100**');
+  // This checks if args[0] is MORE THAN 100, if it is, it returns and sends a message.
+
+  // Now, we can delete the messages
+  message.channel.bulkDelete(args[0])
+    .then(messages => message.channel.send(`**Successfully deleted \`${messages.size}/${args[0]}\` messages**`).then(msg => msg.delete({
+      timeout: 10000
+    }))) // This sends how many messages they deleted to chat, we also want to delete this message. This deletes the message after 10000 milliseconds.
+
+
+}
   
   
 if (command == "minecraft") {
