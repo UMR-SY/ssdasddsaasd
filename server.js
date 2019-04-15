@@ -1,6 +1,6 @@
 const Discord = require("discord.js"); // use discord.js
 const moment = require('moment');
-
+ 
 let PREFIX = "," // bot's prefix
 
 
@@ -68,11 +68,7 @@ bot.on("message", function(message) { // when a message is sent
 	
     }
   if (command == "purge") {
-    if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("Nu aveti permisiunea pentru a executa aceasta comanda.");
-  if(!args[0]) return message.channel.send(" $purge (0/1000)");
-  message.channel.bulkDelete(args[0]).then(() => {
-  message.channel.send(` ${args[0]}  mesaje sterse`).then(msg => msg.delete(2000));
-});
+    
 }
 
     if (command == "ping") { // creates a command *ping
@@ -120,6 +116,12 @@ bot.on("message", function(message) { // when a message is sent
   
   }
   if (command == "purge") {
+      if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("Nu aveti permisiunea pentru a executa aceasta comanda.");
+  if(!args[0]) return message.channel.send(" $purge (0/1000)");
+  message.channel.bulkDelete(args[0]).then(() => {
+  message.channel.send(` ${args[0]}  mesaje au fost sterse.`).then(msg => msg.delete(2000));
+
+
 
     }
 	
@@ -153,7 +155,9 @@ bot.on("message", function(message) { // when a message is sent
 
       
    }
-
+  
+if (command == "purge") {
+  
 
   
 
