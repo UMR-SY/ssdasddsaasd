@@ -13,7 +13,7 @@ var eightball = [ // sets the answers to an eightball
 var bot = new Discord.Client(); // sets Discord.Client to bot
 
 bot.on("ready", function() { // when the bot starts up, set its game to Use *help and tell the console "Booted up!"
-bot.user.setStatus("dnd")
+bot.user.setStatus("dnd");
 bot.user.setActivity(",help",   { type: "Listening"});
     console.log("pornit gata,gata noob") // messages the console Booted up!
 });
@@ -182,8 +182,20 @@ let doge = new Discord.RichEmbed()
 .setTimestamp()
  message.channel.send(doge)
     
-        
-    
+  }       
+    if (command == "slap") {
+      
+  const rando_lilac_pict = ["https://media1.tenor.com/images/153b2f1bfd3c595c920ce60f1553c5f7/tenor.gif?itemid=10936993", "https://media.giphy.com/media/l0Iy4KUJ0Q4prROOQ/giphy.gif", "https://media.giphy.com/media/RQGT68dpelzJS/giphy.gif"] //put multipe pictures here
+  
+  let randomized = rando_lilac_pict[Math.floor(Math.random() * rando_lilac_pict.length)]
+  
+  
+  let embed = new Discord.RichEmbed()
+  .setColor('blue')
+  .setDescription("Pleaca de aici!")
+  .setImage(randomized)
+  message.channel.send(embed);
+
 }
   if (command == "userinfo") {
 let user;
@@ -387,4 +399,4 @@ message.channel.send(mc);
 });
 
 
-bot.login('NTQ3ODE1NzYwNjYwMDA0ODcw.XK7R7Q.NZktR6itiqI3P9jTl0MwdPMEDno'); // connects to the bot
+bot.login('NTQ3ODE1NzYwNjYwMDA0ODcw.XLRulg.D3sj_KlH0lW2VEs7HPMHphYAQlw'); // connects to the bot
