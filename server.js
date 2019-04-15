@@ -1,6 +1,6 @@
 const Discord = require("discord.js"); // use discord.js
 const moment = require('moment');
- 
+
 let PREFIX = "," // bot's prefix
 
 
@@ -150,7 +150,7 @@ bot.on("message", function(message) { // when a message is sent
    }
   
 if (command == "purge") {
-  
+
 
   
 
