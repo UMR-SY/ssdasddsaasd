@@ -115,15 +115,7 @@ bot.on("message", function(message) { // when a message is sent
     message.channel.send(`https://discordapp.com/api/oauth2/authorize?client_id=547815760660004870&permissions=8&scope=bot`);
   
   }
-  if (command == "purge") {
-      if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("Nu aveti permisiunea pentru a executa aceasta comanda.");
-  if(!args[0]) return message.channel.send(" $purge (0/1000)");
-  message.channel.bulkDelete(args[0]).then(() => {
-  message.channel.send(` ${args[0]}  mesaje au fost sterse.`).then(msg => msg.delete(2000));
 
-
-
-    }
 	
 	 if (command == "ban") {
 
@@ -162,7 +154,7 @@ if (command == "purge") {
   
 
 
-  
+}
   
 if (command == "suggest") {
             var suggest = args.join(" ")
@@ -350,6 +342,13 @@ if (command == "unmute") { // creates the command unmute
   return message.channel.send(drq)
 
 	}
+  
+if(command === "purge") {
+     
+
+  
+  
+  
 if (command == "minecraft") {
  
 

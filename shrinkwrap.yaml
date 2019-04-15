@@ -1,4 +1,5 @@
 dependencies:
+  await: 0.2.6
   await-to-js: 2.1.1
   discord.js: 11.4.2
   express: 4.16.4
@@ -28,6 +29,10 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-CHBC6gQGCIzjZ09tJ+XmpQoZOn4GdWePB4qUweCaKNJ0D3f115YdhmYVTZ4rMVpiJ3cFzZcTYK1VMYEICV4YXw==
+  /await/0.2.6:
+    dev: false
+    resolution:
+      integrity: sha1-yI5u5pPW7Tcv8PUuwV1WVZCIVc4=
   /body-parser/1.18.3:
     dependencies:
       bytes: 3.0.0
@@ -435,6 +440,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  await: ^0.2.6
   await-to-js: ^2.1.1
   discord.js: ^11.4.2
   express: ^4.16.4
