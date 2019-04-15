@@ -15,7 +15,7 @@ var bot = new Discord.Client(); // sets Discord.Client to bot
 bot.on("ready", function() { // when the bot starts up, set its game to Use *help and tell the console "Booted up!"
 bot.user.setStatus("dnd");
 bot.user.setActivity(",help",   { type: "Listening"});
-    console.log("pornit gata,gata noob") // messages the console Booted up!
+    console.log("booted") // messages the console Booted up!
 });
 
 bot.on("message", function(message) { // when a message is sent
