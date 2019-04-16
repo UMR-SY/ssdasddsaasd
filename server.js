@@ -67,10 +67,6 @@ bot.on("message", function(message) { // when a message is sent
 	message.channel.send(embedhelpmember);
 	
     }
-  if (command == "purge") {
- 
-    
-}
 
     if (command == "ping") { // creates a command *ping
       var pula = new Discord.RichEmbed()
