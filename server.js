@@ -122,9 +122,11 @@ bot.on("message", function(message) { // when a message is sent
 
   let logs = message.guild.channels.find("name", "logs");
   if(!logs) return message.channel.send("Could not find a logs channel.");
-
+  
+  if (!message.member.hasPermission("ADMINISTRATOR")) return message.reply("Nu aveti permisiunea pentru a executa aceasta comanda");
+     
   let user = message.mentions.users.first();
-  if(!user) return message.reply("Please mention a user");
+  if(!user) return message.reply("Va rog sa mentionati un username!");
 
   let reason = args.join(" ");
   if(!reason) reason = "No reason given";
@@ -226,6 +228,8 @@ let user;
 
 }
 if (command == "unmute") { // creates the command unmute
+  
+  if (!message.member.hasPermission("MUTE_MEMBERS")) return message.reply("Nu aveti permisiunea pentru a executa aceasta comanda");
         var unmutedmember = message.mentions.members.first(); // sets the mentioned user to the var kickedmember
         if (!unmutedmember) return message.reply("Va rugam sa mentionati un membru valabil al acestui server!") // if there is no kickedmmeber var
         unmutedmember.removeRole(mutedrole) //if reason, kick
@@ -324,6 +328,8 @@ if (command == "unmute") { // creates the command unmute
     }
 
     if (command == "say") { // creates command say
+      
+  if (!message.member.hasPermission("ADMINISTRATOR")) return message.reply("Nu aveti permisiunea pentru a executa aceasta comanda");
      var sayMessage = message.content.substring(4)
         message.channel.send(sayMessage);
 
@@ -382,7 +388,7 @@ message.channel.send(mc);
 	 if (command == "mute") { // creates the command mute
         var mutedmember = message.mentions.members.first(); // sets the mentioned user to the var kickedmember
         if (!mutedmember) return message.reply("Va rugam sa mentionati un membru al acestui server!") // if there is no kickedmmeber var
-        if (mutedmember.hasPermission("ADMINISTRATOR")) return message.reply("Nu pot dezactiva acest membru!") // if memebr is an admin
+        if (mutedmember.hasPermission("MUTE_MEMBERS")) return message.reply("Nu pot dezactiva acest membru!") // if memebr is an admin
         var mutereasondelete = 10 + mutedmember.user.id.length //sets the length of the kickreasondelete
         var mutereason = message.content.substring(mutereasondelete).split(" "); // deletes the first letters until it reaches the reason
         var mutereason = mutereason.join(" "); // joins the list kickreason into one line
@@ -396,7 +402,8 @@ message.channel.send(mc);
     // This command must be limited to mods and admins. In this example we just hardcode the role names.
     // Please read on Array.some() to understand this bit: 
     // https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/some?
-    if(!message.member.roles.some(r=>["Owner"].includes(r.name)) )
+    
+  if (!message.member.hasPermission("KICK_MEMBERS")) return message.reply("Nu aveti permisiunea pentru a executa aceasta comanda");
       return message.reply("Ne pare rău, nu aveți permisiuni să utilizați acesta commanda!");
     
     // Let's first check if we have a member and if we can kick them!
