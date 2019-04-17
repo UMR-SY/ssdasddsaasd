@@ -18,7 +18,8 @@
     "await": "^0.2.6",
     "quick.db": "^6.3.2",
     "await.js": "^0.0.5",
-    "awaiting": "^3.0.0"
+    "awaiting": "^3.0.0",
+    "async": "^2.6.1"
   },
   "engines": {
     "node": "8.x"
