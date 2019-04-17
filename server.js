@@ -53,6 +53,7 @@ bot.on("message", function(message) { // when a message is sent
       .addField(" - ,minecraft" , "Iti arata un achievement cu mesajul tau")
       .addField(" - ,kill", "Omori un membru")  
       .addField(" - ,slap", "Ii tragi o palma unui nesimtit")
+      .addField(" - ,gay", "Iti arata cat de gay esti ")
 			.setColor("000000")
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
