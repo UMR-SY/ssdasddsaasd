@@ -419,6 +419,8 @@ message.channel.send(mc);
        
 }
 	 if (command == "mute") { // creates the command mute
+     
+  if (!message.member.hasPermission("MUTE_MEMBERS")) return message.reply("Nu aveti permisiunea pentru a executa aceasta comanda");
         var mutedmember = message.mentions.members.first(); // sets the mentioned user to the var kickedmember
         if (!mutedmember) return message.reply("Va rugam sa mentionati un membru al acestui server!") // if there is no kickedmmeber var
         if (mutedmember.hasPermission("MUTE_MEMBERS")) return message.reply("Nu pot dezactiva acest membru!") // if memebr is an admin
