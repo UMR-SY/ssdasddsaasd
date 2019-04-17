@@ -369,19 +369,16 @@ if (command == "unmute") { // creates the command unmute
     if (command === "stats") {
    var drq = new Discord.RichEmbed()
  .setAuthor(bot.user.username)
-            .setTitle("***BOT Stats***")
-            .setColor("RANDOM")
-            .addField("• Mem Usage", `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} / ${(os.totalmem() / 1024 / 1024).toFixed(2)} MB`, true)
-            .addField("• Uptime ", `${duration}`, true)
-            .addField("• Users", `${bot.users.size.toLocaleString()}`, true)
-            .addField("• Servers", `${bot.guilds.size.toLocaleString()}`, true)
-            .addField("• Channels ", `${bot.channels.size.toLocaleString()}`, true)
-            .addField("• Discord.js", `v${version}`, true)
-            .addField("• Node", `${process.version}`, true)
-            .addField("• CPU", `\`\`\`md\n${os.cpus().map(i => `${i.model}`)[0]}\`\`\``)
-            .addField("• CPU usage", `\`${percent.toFixed(2)}%\``, true)
-            .addField("• Arch", `\`${os.arch()}\``, true)
-            .addField("• Platform", `\`\`${os.platform()}\`\``, true)
+ .addField("Proceses", `**NodeJS**: ${process.version}\n**Discord.JS**: ${require('discord.js').version}`)
+   .setColor(1337)
+   .addBlankField()
+  .addField("Servers and Users", `**Servers**: ${bot.guilds.size} **Users**: ${bot.users.size}`)
+  .addField("Ram Usage" , Math.round(process.memoryUsage().heapUsed /512/512) + "/512 MB", true)
+  .addField("Ping" , `${bot.pings[0]}`)
+  .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL)
+   .addField("Owner:", "<@482833730486927381>")
+   .addField("Cpu Usage:", "0.0%")
+
    
   return message.channel.send(drq)
 
@@ -466,4 +463,4 @@ message.channel.send(mc);
 });
 
 
-bot.login('NTQ3ODE1NzYwNjYwMDA0ODcw.XLRulg.D3sj_KlH0lW2VEs7HPMHphYAQlw'); // connects to the bot
+bot.login('NTQ3ODE1NzYwNjYwMDA0ODcw.XLdVoQ.9npYCRcnDsAGnuKETRk-SHN40Q0'); // connects to the bot
