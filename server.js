@@ -83,6 +83,8 @@ bot.on("message", function(message) { // when a message is sent
         message.channel.send(`🏓 Pong! | Ping: \`${bot.pings[0]} tick/ms\` `)
     
 	}
+
+
 	  if (command == "avatar") {
           let uUser = message.mentions.users.first() || message.author;
 
@@ -354,6 +356,7 @@ if (command == "unmute") { // creates the command unmute
   .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL)
    .addField("Owner:", "<@482833730486927381>")
    .addField("Cpu Usage:", "0.0%")
+   
   return message.channel.send(drq)
 
 	}
