@@ -332,7 +332,6 @@ if (command == "unmute") { // creates the command unmute
     
 }
    if (command == "servers") {
-
           let bicon = bot.user.displayAvatarURL;
     let string = '';
     bot.guilds.forEach(guild => {
