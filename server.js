@@ -159,7 +159,7 @@ bot.on("message", function(message) { // when a message is sent
       
    }
   
-if (command == "hug") {
+if (command == "purge") {
 
   
 

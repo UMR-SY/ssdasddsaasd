@@ -1,6 +1,8 @@
 dependencies:
   await: 0.2.6
   await-to-js: 2.1.1
+  await.js: 0.0.5
+  awaiting: 3.0.0
   discord.js: 11.4.2
   express: 4.16.4
   moment: 2.24.0
@@ -38,10 +40,20 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-CHBC6gQGCIzjZ09tJ+XmpQoZOn4GdWePB4qUweCaKNJ0D3f115YdhmYVTZ4rMVpiJ3cFzZcTYK1VMYEICV4YXw==
+  /await.js/0.0.5:
+    dev: false
+    resolution:
+      integrity: sha1-aKItTyHZY66f+N0Jdh+7R98RU5I=
   /await/0.2.6:
     dev: false
     resolution:
       integrity: sha1-yI5u5pPW7Tcv8PUuwV1WVZCIVc4=
+  /awaiting/3.0.0:
+    dev: false
+    engines:
+      node: '>=7.6.x'
+    resolution:
+      integrity: sha1-1z0FMBZ9ykgJZf8fEO5pWfcPtRU=
   /backo2/1.0.2:
     dev: false
     resolution:
@@ -690,6 +702,8 @@ shrinkwrapVersion: 3
 specifiers:
   await: ^0.2.6
   await-to-js: ^2.1.1
+  await.js: ^0.0.5
+  awaiting: ^3.0.0
   discord.js: ^11.4.2
   express: ^4.16.4
   moment: ^2.24.0
