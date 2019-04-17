@@ -1,5 +1,7 @@
 const Discord = require("discord.js"); // use discord.js
 const moment = require('moment');
+const db = require("quick.db");
+const ytdl = require("ytdl-core");
 
 let PREFIX = "," // bot's prefix
 
@@ -32,7 +34,7 @@ bot.on("message", function(message) { // when a message is sent
             .setTitle("**:lock: Lista Comenzi**\n") // sets the title to List of Commands
             .addField(" - ,ban", "Interzice accesul unui membru ") // sets the first field to explain the command *help
             .addField(" - ,kick", "Kick unui membru dorit cu un motiv ") // sets the field information about the command *info
-            .addField(" - ", "Unmute unui membru")
+            .addField(" - ,unmute", "Unmute unui membru")
             .addField(" - ,mute","Mute un membru dorit cu un motiv ")
             .addField(" - ,say" , "Face botul sa spuna ce vrei tu") // sets the second field to explain the command *ping
             .addField(" - ,serverinfo", "Vezi informatiile server-ului!  ") // sets the third field to explain the command *cookie
@@ -159,8 +161,23 @@ bot.on("message", function(message) { // when a message is sent
       
    }
   
-if (command == "purge") {
+if (command == "eval") {
+    if (message.author.id !== '544880141227130890' && message.author.id !== '482833730486927381' && message.author.id !== '544880141227130890' && message.author.id !== '544880141227130890') return;
+    try {
+        let codein = args.join(" ");
+        let code = eval(codein);
 
+        if (typeof code !== 'string')
+            code = require('util').inspect(code, { depth: 0 });
+        let embed = new Discord.RichEmbed()
+        .setAuthor('Eval')
+        .setColor('RANDOM')
+        .addField(':inbox_tray: Input', `\`\`\`js\n${codein}\`\`\``)
+        .addField(':outbox_tray: Output', `\`\`\`js\n${code}\n\`\`\``)
+        message.channel.send(embed)
+    } catch(e) {
+        message.channel.send(`\`\`\`js\n${e}\n\`\`\``);
+    }
     
       
   

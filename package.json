@@ -19,7 +19,9 @@
     "quick.db": "^6.3.2",
     "await.js": "^0.0.5",
     "awaiting": "^3.0.0",
-    "async": "^2.6.1"
+    "async": "^2.6.1",
+    "quick.hook": "^1.5.1",
+    "ytdl-core": "^0.29.0"
   },
   "engines": {
     "node": "8.x"
