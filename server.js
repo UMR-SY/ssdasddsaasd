@@ -67,6 +67,15 @@ bot.on("message", function(message) { // when a message is sent
 	message.channel.send(embedhelpmember);
 	
     }
+  if (command == "gay") {
+        let gay = Math.round(Math.random() * 100);
+
+    let gayembed = new Discord.RichEmbed()
+        .setColor("#f442d4")
+        .setTitle(`:gay_pride_flag: **${message.author.username} este ${gay}% gay!** :gay_pride_flag:`);
+    message.delete(10);
+    return message.channel.send(gayembed);
+}
 
     if (command == "ping") { // creates a command *ping
       var pula = new Discord.RichEmbed()
