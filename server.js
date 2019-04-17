@@ -32,7 +32,7 @@ bot.on("message", function(message) { // when a message is sent
             .setTitle("**:lock: Lista Comenzi**\n") // sets the title to List of Commands
             .addField(" - ,ban", "Interzice accesul unui membru ") // sets the first field to explain the command *help
             .addField(" - ,kick", "Kick unui membru dorit cu un motiv ") // sets the field information about the command *info
-            .addField(" - ,unmute", "Unmute unui membru")
+            .addField(" - ", "Unmute unui membru")
             .addField(" - ,mute","Mute un membru dorit cu un motiv ")
             .addField(" - ,say" , "Face botul sa spuna ce vrei tu") // sets the second field to explain the command *ping
             .addField(" - ,serverinfo", "Vezi informatiile server-ului!  ") // sets the third field to explain the command *cookie
