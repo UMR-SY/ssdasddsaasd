@@ -72,11 +72,7 @@ bot.on("message", function(message) { // when a message is sent
 	
     }
   if (command == "purge") {
-       if (!msg.member.hasPermission("MANAGE_MESSAGES")) return msg.reply("Nu aveti permisiunea pentru a executa aceasta comanda.");
-  if(!args[0]) return msg.channel.send("Scrieti un numar intre 1 si 2000"); msg.channel.bulkDelete(args[0]).then(() => {
- msg.channel.send(` ${args[0]}  mesaje au fost sterse.`).then(msg => msg.delete(2000));
-});
-}
+  }
   if (command == "gay") {
         let gay = Math.round(Math.random() * 100);
 

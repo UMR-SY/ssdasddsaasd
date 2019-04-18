@@ -1,5 +1,6 @@
 dependencies:
   async: 2.6.2
+  aw: 0.1.0
   await: 0.2.6
   await-to-js: 2.1.1
   await.js: 0.0.5
@@ -45,6 +46,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-H1qVYh1MYhEEFLsP97cVKqCGo7KfCyTt6uEWqsTBr9SO84oK9Uwbyd/yCW+6rKJLHksBNUVWZDAjfS+Ccx0Bbg==
+  /aw/0.1.0:
+    dev: false
+    engines:
+      node: '>= 4.0.0'
+    resolution:
+      integrity: sha1-R2Hgui2UfUUSGVpQY7PYQmnWNp4=
   /await-to-js/2.1.1:
     dev: false
     engines:
@@ -762,6 +769,7 @@ shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   async: ^2.6.1
+  aw: ^0.1.0
   await: ^0.2.6
   await-to-js: ^2.1.1
   await.js: ^0.0.5
