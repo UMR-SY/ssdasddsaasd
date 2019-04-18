@@ -16,7 +16,7 @@ var bot = new Discord.Client(); // sets Discord.Client to bot
 
 bot.on("ready", function() { // when the bot starts up, set its game to Use *help and tell the console "Booted up!"
 bot.user.setStatus("dnd");
-bot.user.setActivity(",help",   { type: "Listening"});
+bot.user.setActivity(",help",   { type: "Watching"});
     console.log("booted") // messages the console Booted up!
 });
 
@@ -55,6 +55,7 @@ bot.on("message", function(message) { // when a message is sent
       .addField(" - ,kill", "Omori un membru")  
       .addField(" - ,slap", "Ii tragi o palma unui nesimtit")
       .addField(" - ,gay", "Iti arata cat de gay esti ")
+      .addField(" - ,purge", "Stergi mesajele de pe un channel")
 			.setColor("000000")
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
@@ -69,6 +70,13 @@ bot.on("message", function(message) { // when a message is sent
 	message.channel.send(embedhelpmember);
 	
     }
+  if (command == "purge") {
+      if (!msg.member.hasPermission("MANAGE_MESSAGES")) return msg.reply("Nu aveti permisiunea pentru a executa aceasta comanda.");
+  if(!args[0]) return msg.channel.send(" $purge (0/1000)");
+ msg.channel.bulkDelete(args[0]).then(() => {
+ msg.channel.send(` ${args[0]}  mesaje au fost sterse din acest canal`).then(msg => msg.delete(2000));
+});
+}
   if (command == "gay") {
         let gay = Math.round(Math.random() * 100);
 
