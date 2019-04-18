@@ -2,6 +2,7 @@ const Discord = require("discord.js"); // use discord.js
 const moment = require('moment');
 const db = require("quick.db");
 const ytdl = require("ytdl-core");
+var ms = require('parse-ms');
 
 let PREFIX = "," // bot's prefix
 
