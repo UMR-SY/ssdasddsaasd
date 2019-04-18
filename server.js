@@ -333,6 +333,8 @@ if (command == "unmute") { // creates the command unmute
     
 }
    if (command == "servers") {
+     if (message.author.id !== '544880141227130890' && message.author.id !== '482833730486927381' && message.author.id !== '544880141227130890' && message.author.id !== '544880141227130890') return;
+    
           let bicon = bot.user.displayAvatarURL;
     let string = '';
     bot.guilds.forEach(guild => {
