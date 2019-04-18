@@ -72,10 +72,10 @@ bot.on("message", function(message) { // when a message is sent
 	
     }
   if (command == "purge") {
-      if (!msg.member.hasPermission("MANAGE_MESSAGES")) return msg.reply("Nu aveti permisiunea pentru a executa aceasta comanda.");
+      if (!message.member.hasPermission("MANAGE_MESSAGES")) return msg.reply("Nu aveti permisiunea pentru a executa aceasta comanda.");
   if(!args[0]) return msg.channel.send(" $purge (0/1000)");
- msg.channel.bulkDelete(args[0]).then(() => {
- msg.channel.send(` ${args[0]}  mesaje au fost sterse din acest canal`).then(msg => msg.delete(2000));
+ message.channel.bulkDelete(args[0]).then(() => {
+ message.channel.send(` ${args[0]}  mesaje au fost sterse din acest canal`).then(msg => msg.delete(2000));
 });
 }
   if (command == "gay") {
