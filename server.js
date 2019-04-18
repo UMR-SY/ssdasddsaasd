@@ -38,11 +38,10 @@ bot.on("message", function(message) { // when a message is sent
             .addField(" - ,mute","Mute un membru dorit cu un motiv ")
             .addField(" - ,say" , "Face botul sa spuna ce vrei tu") // sets the second field to explain the command *ping
             .addField(" - ,serverinfo", "Vezi informatiile server-ului!  ") // sets the third field to explain the command *cookie
-            .addField(" - ,servers", "Arata serverele mele ") // sets the field to the 8ball command
 			.addField(" - ,avatar", "iti arata avatarul care il ai!")			// arata avatarul care il ai
       .addField(" - ,invite", "Poti sa ma inviti pe Serverul tau!")
       .addField(" - ,stats ", "Iti arata informatiile mele")
-      .addField(" - ,suggest", "Scrii o sugestie server-ului")
+      .addField(" - ,suggest", 'Scrii o sugestie server-ului')
       .addField(" - ,ask","Raspunde la toate intrebarile dvs. !")
       .addField(" - ,ping", "Tasteaza ping-ul bot-ului")
       .addField(" - ,info", "Spune informatii despre mine ")
