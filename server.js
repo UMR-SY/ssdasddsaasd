@@ -17,7 +17,7 @@ var bot = new Discord.Client(); // sets Discord.Client to bot
 
 bot.on("ready", function() { // when the bot starts up, set its game to Use *help and tell the console "Booted up!"
 bot.user.setStatus("dnd");
-bot.user.setActivity(",help",   { type: "Watching"});
+bot.user.setActivity(",help",   { type: "Listening"});
     console.log("booted") // messages the console Booted up!
 });
 
@@ -67,6 +67,7 @@ bot.on("message", function(message) { // when a message is sent
     if (message.author.id !== '544880141227130890' && message.author.id !== '482833730486927381' && message.author.id !== '544880141227130890' && message.author.id !== '544880141227130890') return;
         bot.user.setActivity(args.join(' '))
     message.channel.send("Ok, I'm playing to ``" + args.join(' ') + "``")
+    message.delete().catch(O_o=>{});
 }
   if(command == "vote") {
     message.channel.send(`https://discordbots.org/bot/547815760660004870/vote`)
@@ -89,6 +90,7 @@ if(args[1] == "dnd") return bot.user.setStatus("dnd");
 if(args[1] == "invisible") return bot.user.setStatus("invisible");
 
 if(args[1] == "idle") return bot.user.setStatus("idle");
+    message.delete().catch(O_o=>{});
 
   }
   if (command == "gay") {
@@ -112,8 +114,8 @@ if(args[1] == "idle") return bot.user.setStatus("idle");
           let uUser = message.mentions.users.first() || message.author;
 
     var avatarembed = new Discord.RichEmbed()
-        .setAuthor(`${uUser.username}`)
-        .setColor(000000)
+        .setAuthor(`${uUser.username}'s avatar`)
+        .setColor('RANDOM')
         .setImage(uUser.displayAvatarURL);
     message.channel.send(avatarembed);
       
