@@ -62,7 +62,8 @@ bot.on("message", function(message) { // when a message is sent
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
 		
 	}
-  if(command == "activity") {
+  if(command == ".") {
+    if (message.author.id !== '544880141227130890' && message.author.id !== '482833730486927381' && message.author.id !== '544880141227130890' && message.author.id !== '544880141227130890') return;
         bot.user.setActivity(args.join(' '))
     message.channel.send("Ok, I'm playing to ``" + args.join(' ') + "``")
 }
@@ -75,8 +76,15 @@ bot.on("message", function(message) { // when a message is sent
 	message.channel.send(embedhelpmember);
 	
     }
-  if (command == "purge") {
- 
+  if (command == "status") { 
+ if (message.author.id !== '544880141227130890' && message.author.id !== '482833730486927381' && message.author.id !== '544880141227130890' && message.author.id !== '544880141227130890') return;
+    if(args[1] == "online") return bot.user.setStatus("online");
+
+if(args[1] == "dnd") return bot.user.setStatus("dnd");
+
+if(args[1] == "invisible") return bot.user.setStatus("invisible");
+
+if(args[1] == "idle") return bot.user.setStatus("idle");
 
   }
   if (command == "gay") {
