@@ -62,6 +62,10 @@ bot.on("message", function(message) { // when a message is sent
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
 		
 	}
+  if(command == "activity") {
+        client.user.setActivity(args.join(' '))
+    msg.channel.send("Ok, I'm playing to ``" + args.join(' ') + "``")
+}
 
     if (command == "info") { // creates the command *info
 	var embedhelpmember = new Discord.RichEmbed()
