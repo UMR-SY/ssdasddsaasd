@@ -46,7 +46,7 @@ bot.on("message", function(message) { // when a message is sent
       .addField(" - ,ask","Raspunde la toate intrebarile dvs. !")
       .addField(" - ,ping", "Tasteaza ping-ul bot-ului")
       .addField(" - ,info", "Spune informatii despre mine ")
-      .setColor("000000")
+      .setColor('RANDOM')
             .setFooter("Creatorul acestui bot este Skrib#0008") // sets the footer to "You need help, do you?"
       .addField(" - ,userinfo", "Iti arata informatiile tale")
       .addField(" - ,kiss", "Trimiti un kiss unei persoane")
@@ -57,7 +57,7 @@ bot.on("message", function(message) { // when a message is sent
       .addField(" - ,slap", "Ii tragi o palma unui nesimtit")
       .addField(" - ,gay", "Iti arata cat de gay esti ")
     
-			.setColor("000000")
+			.setColor('RANDOM')
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
 		
