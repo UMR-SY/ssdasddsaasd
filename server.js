@@ -81,7 +81,7 @@ bot.on("message", function(message) { // when a message is sent
 	message.channel.send(embedhelpmember);
 	
     }
-  if (command == "status") { 
+  if (command == "status") {   
  if (message.author.id !== '544880141227130890' && message.author.id !== '482833730486927381' && message.author.id !== '544880141227130890' && message.author.id !== '544880141227130890') return;
     if(args[1] == "online") return bot.user.setStatus("online");
 
