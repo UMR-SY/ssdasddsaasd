@@ -56,6 +56,7 @@ bot.on("message", function(message) { // when a message is sent
       .addField(" - ,kill", "Omori un membru")  
       .addField(" - ,slap", "Ii tragi o palma unui nesimtit")
       .addField(" - ,gay", "Iti arata cat de gay esti ")
+      .addField(" - ,vote", "Ma poti vota pe discord bots")
     
 			.setColor('RANDOM')
             .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
@@ -66,6 +67,9 @@ bot.on("message", function(message) { // when a message is sent
     if (message.author.id !== '544880141227130890' && message.author.id !== '482833730486927381' && message.author.id !== '544880141227130890' && message.author.id !== '544880141227130890') return;
         bot.user.setActivity(args.join(' '))
     message.channel.send("Ok, I'm playing to ``" + args.join(' ') + "``")
+}
+  if(command == "vote") {
+    message.channel.send(`https://discordbots.org/bot/547815760660004870/vote`)
 }
 
     if (command == "info") { // creates the command *info
