@@ -63,8 +63,8 @@ bot.on("message", function(message) { // when a message is sent
 		
 	}
   if(command == "activity") {
-        client.user.setActivity(args.join(' '))
-    msg.channel.send("Ok, I'm playing to ``" + args.join(' ') + "``")
+        bot.user.setActivity(args.join(' '))
+    message.channel.send("Ok, I'm playing to ``" + args.join(' ') + "``")
 }
 
     if (command == "info") { // creates the command *info
