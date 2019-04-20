@@ -269,7 +269,7 @@ let user;
 		.setThumbnail(user.avatarURL)
 		.setTitle(`${user.username}#${user.discriminator}`)
 		.addField("ID:", `${user.id}`, true)
-		.addField("Nickname:", `${member.nickname !== null ? `${member.nickname}` : 'Nothing'}`, true)
+		.addField("Nickname:", `${member.nickname !== null ? `${member.nickname}` : 'None'}`, true)
 		.addField("Created :", `${moment.utc(user.createdAt).format('dddd, MMMM Do YYYY, HH:mm:ss')}`, true)
 		.addField("Joined Server:", `${moment.utc(member.joinedAt).format('dddd, MMMM Do YYYY, HH:mm:ss')}`, true)
 		.addField("Status:", `${user.presence.status}`, true)
