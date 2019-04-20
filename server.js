@@ -397,7 +397,7 @@ if (command == "unmute") { // creates the command unmute
    .addBlankField()
   .addField("Servers and Users", `**Servers**: ${bot.guilds.size} **Users**: ${bot.users.size}`)
   .addField("Ram Usage" , Math.round(process.memoryUsage().heapUsed /512/512) + "/512 MB", true)
-  .addField("Ping" , `${bot.pings[0]}`)
+  .addField("Ping" ,Math.round(client.ping )
   .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL)
    .addField("Owner:", "<@482833730486927381>")
    .addField("Cpu Usage:", "0.0%")
