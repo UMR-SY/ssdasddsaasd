@@ -272,10 +272,8 @@ let user;
 		.addField("Nickname:", `${member.nickname !== null ? `${member.nickname}` : 'Nothing'}`, true)
 		.addField("Created :", `${moment.utc(user.createdAt).format('dddd, MMMM Do YYYY, HH:mm:ss')}`, true)
 		.addField("Joined Server:", `${moment.utc(member.joinedAt).format('dddd, MMMM Do YYYY, HH:mm:ss')}`, true)
-		.addField("Bot:", `${user.bot}`, true)
 		.addField("Status:", `${user.presence.status}`, true)
-		.addField("Game:", `${user.presence.game ? user.presence.game.name : 'Nothing'}`, true)
-		.addField("Roles:", member.roles.map(roles => `${roles.name}`).join(', '), true)
+		.addField("Game:", `${user.presence.game ? user.presence.game.name : 'None'}`, true)
 		.setFooter(`Replying to ${message.author.username}#${message.author.discriminator}`)
      message.channel.send({embed});
 
