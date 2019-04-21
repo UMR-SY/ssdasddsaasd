@@ -72,7 +72,10 @@ bot.on("message", function(message) { // when a message is sent
   if(command == "vote") {
     message.channel.send(`https://discordbots.org/bot/547815760660004870/vote`)
 }
-
+  if(command == "reboot") {
+  
+  }
+    
     if (command == "info") { // creates the command *info
 	var embedhelpmember = new Discord.RichEmbed()
 	.setTitle("**INFORMATII**")
