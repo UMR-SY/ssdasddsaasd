@@ -7,7 +7,7 @@ var ms = require('parse-ms'); //
 let PREFIX = "," // bot's prefx
 
 
-var eightball = [ // sets the answers to an eightball
+var eightball = [// sets the answers to an eightball
   "True",
   "False",
   "Idfk",
