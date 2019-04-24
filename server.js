@@ -59,7 +59,7 @@ bot.on("message", function(message) { // when a message is sent
       .addField(" - ,vote", "Ma poti vota pe discord bots")
     
 			.setColor('RANDOM')
-            .setFooter("Comanda executat de " + message.author.username, message.author.avatarURL);
+            .setFooter("Comanda executata de " + message.author.username, message.author.avatarURL);
         message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
 		
 	}
