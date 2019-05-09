@@ -108,7 +108,7 @@ if(args[1] == "idle") return bot.user.setStatus("idle");
 
     if (command == "ping") { // creates a command *ping
       var pula = new Discord.RichEmbed()
-        message.channel.send(`🏓 Pong! | Ping: \`${bot.pings[0]} ms`)
+
 	}
   if(command == "purge") {
         if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.send('Sorry, but you do not have the **Manage Messages** permissions! If you think this is an error, contact an owner.')
