@@ -1,5 +1,2 @@
-jewdev1:test1
-jewdev2:test2
-jewdev3:test3
 jewdev4:test4
 jewdev5:test5
