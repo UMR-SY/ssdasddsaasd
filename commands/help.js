@@ -7,7 +7,7 @@ module.exports.run = async (client, msg, args, config) => {
 Type **${config.PREFIX}help <command>** for more information about a command.
 For arguments <> means required, [] means optional.`)
         .addField('Commands', client.commands.map(x => `\`${x.help.name}\``).join(', '))
-        .setFooter(`Bot made by jewdev | Ping: ${client.ping}`)
+        .setFooter(`Bot made by Lightt_ | Ping: ${client.ping}`)
         .setTimestamp();
 
         if(!args.join(' ')) return msg.channel.send(embed);
