@@ -1,41 +1,26 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
-  "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "server.js",
+  "name": "accountgenbot",
+  "version": "2.0.0",
+  "description": "A recode of the first version lol",
+  "main": "jewdev.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.16.4",
-    "discord.js": "^11.4.2",
-    "momentjs": "^2.0.0",
-    "moment": "^2.24.0",
-    "await-to-js": "^2.1.1",
-    "await": "^0.2.6",
-    "quick.db": "^6.3.2",
-    "await.js": "^0.0.5",
-    "awaiting": "^3.0.0",
-    "async": "^2.6.1",
-    "quick.hook": "^1.5.1",
-    "ytdl-core": "^0.29.0",
-    "ms": "^2.1.1",
-    "parse-ms": "^2.0.0",
-    "aw": "^0.1.0"
-  },
-  "engines": {
-    "node": "8.x"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "type": "git",
+    "url": "git+https://github.com/BlueMalgeran/AccountGenBot.git"
   },
+  "author": "jewdev",
   "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "bugs": {
+    "url": "https://github.com/BlueMalgeran/AccountGenBot/issues"
+  },
+  "homepage": "https://github.com/BlueMalgeran/AccountGenBot#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  }
 }
