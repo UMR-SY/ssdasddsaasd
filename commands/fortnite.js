@@ -28,7 +28,7 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Fortnite account', `Random account (email:password): \n**${account}**`)
             .setThumbnail('https://i.imgur.com/09Fxrfw.png')
             .setColor('#FFFFFF')
-            .setFooter('Bot made by jewdev')
+            .setFooter('Bot made by Lightt_')
             .setTimestamp();
 
             msg.author.send(embed);
