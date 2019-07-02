@@ -13,7 +13,7 @@ module.exports.run = async (client, msg, args, config) => {
                 }, 5000);
             });
     } else {
-        fs.readFile('./accounts/fortnite.txt', 'utf8', function(err, data) {
+        fs.readFile('./accounts/mc.txt', 'utf8', function(err, data) {
             if (err) throw err;
 
             data = data + '';
@@ -25,8 +25,8 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Fortnite account', `Random account (email:password): \n**${account}**`)
-            .setThumbnail('https://i.imgur.com/09Fxrfw.png')
+            .addField('Minecraft account', `Random account (email:password): \n**${account}**`)
+            .setThumbnail('https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no')
             .setColor('#FFFFFF')
             .setFooter('Bot made by Lightt_')
             .setTimestamp();

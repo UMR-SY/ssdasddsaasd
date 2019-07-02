@@ -35,7 +35,7 @@ client.on('warn', () => console.warn);
 client.on('ready', async () => {
     console.log(`This bot made by ${chalk.cyan('jewdev')} from ${chalk.bold.bgBlue('Nulled.TO')}!`);
 
-    client.user.setActivity('jewdev#8929 is epic!', {
+    client.user.setActivity('Sug pla', {
         type: 'STREAMING',
         url: 'https://www.twitch.tv/BlueMalgeran'
     });
