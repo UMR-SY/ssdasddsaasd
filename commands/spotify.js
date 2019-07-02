@@ -13,20 +13,20 @@ module.exports.run = async (client, msg, args, config) => {
                 }, 5000);
             });
     } else {
-        fs.readFile('./accounts/mc.txt', 'utf8', function(err, data) {
+        fs.readFile('./accounts/spotify.txt', 'utf8', function(err, data) {
             if (err) throw err;
 
             data = data + '';
             var lines = data.split('\n');
             let account = lines[Math.floor(Math.random() * 1)];
 
-            fs.writeFile('./accounts/mc.txt', lines.slice(1).join('\n'), function(err) {
+            fs.writeFile('./accounts/spotify.txt', lines.slice(1).join('\n'), function(err) {
                 if(err) throw err;
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Minecraft account', `Random account (email:password): \n**${account}**`)
-            .setThumbnail('https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no')
+            .addField('Spotify account', `Random account (email:password): \n**${account}**`)
+            .setThumbnail('https://cdn-images-1.medium.com/max/2400/1*BKoo1Q5PBuN87XT4bArK3w.jpeg')
             .setColor('#FFFFFF')
             .setFooter('Bot made by Lightt_')
             .setTimestamp();
