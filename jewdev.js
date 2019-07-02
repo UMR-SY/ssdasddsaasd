@@ -33,7 +33,7 @@ client.on('error', () => console.error);
 client.on('warn', () => console.warn);
 
 client.on('ready', async () => {
-    console.log(`This bot made by ${chalk.cyan('jewdev')} from ${chalk.bold.bgBlue('Nulled.TO')}!`);
+    console.log(`This bot made by ${chalk.cyan('Lightt_')} from ${chalk.bold.bgBlue('GENESIS')}!`);
 
     client.user.setActivity('Sug pla', {
         type: 'STREAMING',
