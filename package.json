@@ -4,11 +4,12 @@
   "description": "A recode of the first version lol",
   "main": "jewdev.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node jewdev.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BlueMalgeran/AccountGenBot.git"
+  
   },
   "author": "jewdev",
   "license": "MIT",
