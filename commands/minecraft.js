@@ -25,7 +25,7 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Minecraft account', `Random account (email:password): \n**${account}**`)
+            .addField('Minecraft account', `Random account (email:password | Username): \n**${account}**`)
             .setThumbnail('https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no')
             .setColor('#FFFFFF')
             .setFooter('Bot made by MRLIT_')
