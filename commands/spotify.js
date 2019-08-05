@@ -28,7 +28,7 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Spotify account', `Random account (email:password): \n**${account}**`)
             .setThumbnail('https://cdn-images-1.medium.com/max/2400/1*BKoo1Q5PBuN87XT4bArK3w.jpeg')
             .setColor('#FFFFFF')
-            .setFooter('Bot made by Lightt_')
+            .setFooter('Bot made by MRLIT_')
             .setTimestamp();
 
             msg.author.send(embed);

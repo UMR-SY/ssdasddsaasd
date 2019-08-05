@@ -28,7 +28,7 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Minecraft account', `Random account (email:password): \n**${account}**`)
             .setThumbnail('https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no')
             .setColor('#FFFFFF')
-            .setFooter('Bot made by Lightt_')
+            .setFooter('Bot made by MRLIT_')
             .setTimestamp();
 
             msg.author.send(embed);
