@@ -20,12 +20,12 @@ module.exports.run = async (client, msg, args, config) => {
             var lines = data.split('\n');
             let account = lines[Math.floor(Math.random() * 1)];
 
-            fs.writeFile('./accounts/mc.txt', lines.slice(1).join('\n'), function(err) {
+            fs.writeFile('./accounts/expressVPN.txt', lines.slice(1).join('\n'), function(err) {
                 if(err) throw err;
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('ExpressVpn', `Random account (email:password | Username): \n**${account}**`)
+            .addField('ExpressVpn', `Random account (email:password): \n**${account}**`)
             .setThumbnail('https://xvp.akamaized.net/assets/public/affiliate-assets/logo/expressvpn-white-on-red-square-stacked-rgb-6e51f5acaadf0d4b6d3a378b12160b8e.png')
             .setColor('#FFFFFF')
             .setFooter('Bot made by MRLIT_')
