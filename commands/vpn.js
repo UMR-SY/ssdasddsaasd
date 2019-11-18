@@ -25,6 +25,7 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
+            .addField('Support Server', `https://discord.gg/xAQPrGc`)
             .addField('ExpressVpn', `Random account (email:password): \n**${account}**`)
             .setThumbnail('https://xvp.akamaized.net/assets/public/affiliate-assets/logo/expressvpn-white-on-red-square-stacked-rgb-6e51f5acaadf0d4b6d3a378b12160b8e.png')
             .setColor('#FFFFFF')
