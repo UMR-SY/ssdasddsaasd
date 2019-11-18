@@ -13,7 +13,7 @@ module.exports.run = async (client, msg, args, config) => {
                 }, 5000);
             });
     } else {
-        fs.readFile('./accounts/mc.txt', 'utf8', function(err, data) {
+        fs.readFile('./accounts/expressVPN.txt', 'utf8', function(err, data) {
             if (err) throw err;
 
             data = data + '';
@@ -25,8 +25,8 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Minecraft account', `Random account (email:password | Username): \n**${account}**`)
-            .setThumbnail('https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no')
+            .addField('ExpressVpn', `Random account (email:password | Username): \n**${account}**`)
+            .setThumbnail('https://xvp.akamaized.net/assets/public/affiliate-assets/logo/expressvpn-white-on-red-square-stacked-rgb-6e51f5acaadf0d4b6d3a378b12160b8e.png')
             .setColor('#FFFFFF')
             .setFooter('Bot made by MRLIT_')
             .setTimestamp();
@@ -49,6 +49,6 @@ module.exports.run = async (client, msg, args, config) => {
 };
 
 module.exports.help = {
-    name: `minecraft`,
-    description: `Sends you a Minecraft account!`
+    name: `vpn`,
+    description: `Sends you a ExpressVpn account!`
 };
