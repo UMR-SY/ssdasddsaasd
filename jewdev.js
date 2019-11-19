@@ -35,7 +35,7 @@ client.on('warn', () => console.warn);
 client.on('ready', async () => {
     console.log(`This bot made by ${chalk.cyan('Lightt_')} from ${chalk.bold.bgBlue('GENESIS')}!`);
 
-    client.user.setActivity('5 Invites = Acces Generator', {
+    client.user.setActivity('GEN BOT', {
         type: 'STREAMING',
         url: 'https://www.twitch.tv/BlueMalgeran'
     });
