@@ -32,13 +32,12 @@ client.on('error', () => console.error);
 
 client.on('warn', () => console.warn);
 
-client.on('ready', async () => {
-    console.log(`This bot made by ${chalk.cyan('Lightt_')} from ${chalk.bold.bgBlue('GENESIS')}!`);
+client.on('ready', () => {
+	console.log('Ready!');
+	client.user.setActivity(`!help | ${client.guilds.size} Servers `, { type: 'WATCHING' });
+	 console.log(`Ready to serve in ${client.channels.size} channels on ${client.guilds.size} servers, for a total of ${client.users.size} users.`);
 
-    client.user.setActivity('GEN BOT', {
-        type: 'STREAMING',
-        url: 'https://www.twitch.tv/BlueMalgeran'
-    });
+
 });
 
 client.on('message', async (msg) => {
