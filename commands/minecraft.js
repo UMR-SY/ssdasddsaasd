@@ -13,21 +13,21 @@ module.exports.run = async (client, msg, args, config) => {
                 }, 5000);
             });
     } else {
-        fs.readFile('./accounts/spotify.txt', 'utf8', function(err, data) {
+        fs.readFile('./accounts/mc.txt', 'utf8', function(err, data) {
             if (err) throw err;
 
             data = data + '';
             var lines = data.split('\n');
             let account = lines[Math.floor(Math.random() * 1)];
 
-            fs.writeFile('./accounts/spotify.txt', lines.slice(1).join('\n'), function(err) {
+            fs.writeFile('./accounts/mc.txt', lines.slice(1).join('\n'), function(err) {
                 if(err) throw err;
             });
 
             let embed = new Discord.RichEmbed()
             .addField('Support Server', `https://discord.gg/xAQPrGc`)
-            .addField('Spotify account',`\n**${account}**`)
-            .setThumbnail('https://cdn-images-1.medium.com/max/2400/1*BKoo1Q5PBuN87XT4bArK3w.jpeg')
+            .addField('Minecraft account',`\n**${account}**`)
+            .setThumbnail('https://cdn.vox-cdn.com/thumbor/qpJp9bhRRTybHADfW_aphIp7W_o=/0x0:1024x576/1200x800/filters:focal(431x207:593x369)/cdn.vox-cdn.com/uploads/chorus_image/image/65289065/WiiU_MinecraftWiiUEdition_screenshot_01.0.0.jpg')
             .setColor('#FFFFFF')
             .setFooter('Bot made by MRLIT_')
             .setTimestamp();
@@ -50,6 +50,6 @@ module.exports.run = async (client, msg, args, config) => {
 };
 
 module.exports.help = {
-    name: `spotify`,
-    description: `Sends you a Spotify account!`
+    name: `minecraft`,
+    description: `Sends you a Minecraft account!`
 };
