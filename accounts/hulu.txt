@@ -1,8 +1,3 @@
-sepinkerton2011@aol.com:Sep2121489 | Region = US | Subscription = ["25","26"] | 
-jenboswell101@yahoo.com:Ottawagirl101 | Region = US | Subscription = ["25","26"] | 
-galvan_lisa@hotmail.com:Lbg@4113 | Region = US | Subscription = ["25","26"] | 
-jenboswell101@yahoo.com:Ottawagirl101! | Region = US | Subscription = ["25","26"] | 
-EAitken@gmail.com:Sub1984lime | Region = US | Subscription = ["25","26"] | 
 Angrimpe@yahoo.com:richard1 | Region = US | Subscription = [Cinemax] | 
 jenifer.sears@gmail.com:dylan123 | Region = US | Subscription = [Cinemax] | 
 rgabriel09@aol.com:hockey99 | Region = US | Subscription = [Cinemax] | 
