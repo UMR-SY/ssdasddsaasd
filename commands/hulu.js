@@ -13,22 +13,22 @@ module.exports.run = async (client, msg, args, config) => {
                 }, 5000);
             });
     } else {
-        fs.readFile('./accounts/expressVPN.txt', 'utf8', function(err, data) {
+        fs.readFile('./accounts/hulu.txt', 'utf8', function(err, data) {
             if (err) throw err;
 
             data = data + '';
             var lines = data.split('\n');
             let account = lines[Math.floor(Math.random() * 1)];
 
-            fs.writeFile('./accounts/expressVPN.txt', lines.slice(1).join('\n'), function(err) {
+            fs.writeFile('./accounts/hulu.txt', lines.slice(1).join('\n'), function(err) {
                 if(err) throw err;
             });
 
             let embed = new Discord.RichEmbed()
             .addField('Support Server', `https://discord.gg/xAQPrGc`)
-            .addField('ExpressVpn', `Random account (email:password): \n**${account}**`)
-            .setThumbnail('https://xvp.akamaized.net/assets/public/affiliate-assets/logo/expressvpn-white-on-red-square-stacked-rgb-6e51f5acaadf0d4b6d3a378b12160b8e.png')
-            .setColor('#00f9ff')
+            .addField('Hulu account',`\n**${account}**`)
+            .setThumbnail('https://www.google.ro/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjMkrzh1vvlAhVDIMUKHTdmBHsQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.hulu.com%2F&psig=AOvVaw0ROZFwc7lBY_r7zazhhJmO&ust=1574438527052523')
+            .setColor('#FFFFFF')
             .setFooter('Bot made by MRLIT_')
             .setTimestamp();
 
@@ -50,6 +50,6 @@ module.exports.run = async (client, msg, args, config) => {
 };
 
 module.exports.help = {
-    name: `vpn`,
-    description: `Sends you a ExpressVpn account!`
+    name: `hulu`,
+    description: `Sends you a Hulu Premium account!`
 };
