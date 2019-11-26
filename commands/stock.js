@@ -3,10 +3,10 @@ const Discord = require ("discord.js")
 exports.run = async (client, message) => {
   let embed = new Discord.RichEmbed()
   .setColor('RANDOM')
-  .addField('DISNEY ACCOUNTS', 'Available: 1800 | !disney')
-    .addField('MINECRAFT ACCOUNTS', 'Available: 258 | !minecraft')
+  .addField('DISNEY ACCOUNTS', 'Available: 1750 | !disney')
+    .addField('MINECRAFT ACCOUNTS', 'Available: 338 | !minecraft')
     .addField('SPOTIFY ACCOUNTS', 'Available: 774 | !spotify')
-    .addField('HULU ACCOUNTS', 'Available: 2320 | !hulu')
+    .addField('HULU ACCOUNTS', 'Available: 2120 | !hulu')
     .addField('NORDVPN ACCOUNTS', 'Available: 1005 | !nordvpn')
   .setFooter('D-GEN STOCK')
    .setTimestamp();
