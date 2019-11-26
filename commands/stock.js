@@ -5,9 +5,9 @@ exports.run = async (client, message) => {
   .setColor('RANDOM')
   .addField('DISNEY ACCOUNTS', 'Available: 1800 | !disney')
     .addField('MINECRAFT ACCOUNTS', 'Available: 258 | !minecraft')
-    .addField('SPOTIFY ACCOUNTS', 'Available: 320 | !spotify')
+    .addField('SPOTIFY ACCOUNTS', 'Available: 774 | !spotify')
     .addField('HULU ACCOUNTS', 'Available: 2320 | !hulu')
-    .addField('NORDVPN ACCOUNTS', 'Available: 1850 | !nordvpn')
+    .addField('NORDVPN ACCOUNTS', 'Available: 1005 | !nordvpn')
   .setFooter('D-GEN STOCK')
    .setTimestamp();
  return message.channel.send(embed)
