@@ -4,7 +4,7 @@ exports.run = async (client, message) => {
   let embed = new Discord.RichEmbed()
   .setColor('RANDOM')
   .addField('DISNEY ACCOUNTS', 'Available: 1750 | !disney')
-    .addField('MINECRAFT ACCOUNTS', 'Available: 338 | !minecraft')
+    .addField('MINECRAFT ACCOUNTS', 'Available: 1124 | !minecraft')
     .addField('SPOTIFY ACCOUNTS', 'Available: 774 | !spotify')
     .addField('HULU ACCOUNTS', 'Available: 2120 | !hulu')
     .addField('NORDVPN ACCOUNTS', 'Available: 1005 | !nordvpn')
