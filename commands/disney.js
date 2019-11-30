@@ -25,7 +25,7 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Support Server', `https://discord.gg/xAQPrGc`)
+            .addField('Support Server', `https://discord.gg/HDfSBwz`)
             .addField('Disney account',`\n**${account}**`)
             .setThumbnail('https://www.google.ro/url?sa=i&source=images&cd=&ved=2ahUKEwi10LeL0_vlAhVELFAKHRFLDcUQjRx6BAgBEAQ&url=https%3A%2F%2Fvariety.com%2F2019%2Ftv%2Fnews%2Fdisney-appoints-jan-koeppen-to-lead-europe-middle-east-africa-1203354626%2F&psig=AOvVaw3fgIH6_8gzJ1pxWYwUWNaE&ust=1574437549681200')
             .setColor('#FFFFFF')

@@ -25,7 +25,7 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Support Server', `https://discord.gg/xAQPrGc`)
+            .addField('Support Server', `https://discord.gg/HDfSBwz`)
             .addField('Nordvpn account',`\n**${account}**`)
             .setThumbnail('https://www.google.ro/imgres?imgurl=https%3A%2F%2Fs1.nordcdn.com%2Fnordvpn%2Fmedia%2F1.88.0%2Fimages%2Fmeta%2Fnordvpn-default.png&imgrefurl=https%3A%2F%2Fnordvpn.com%2Fpress-area%2F&docid=bQ7SCZle9zDQaM&tbnid=Z8NAezkJcMZvdM%3A&vet=10ahUKEwiN6Kit1fvlAhXCfFAKHRvOB9wQMwhEKAIwAg..i&w=1080&h=1080&bih=625&biw=1360&q=nordvpn%20logo&ved=0ahUKEwiN6Kit1fvlAhXCfFAKHRvOB9wQMwhEKAIwAg&iact=mrc&uact=8')
             .setColor('#FFFFFF')

@@ -25,7 +25,7 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Support Server', `https://discord.gg/xAQPrGc`)
+            .addField('Support Server', `https://discord.gg/HDfSBwz`)
             .addField('Minecraft account',`\n**${account}**`)
             .setThumbnail('https://cdn.vox-cdn.com/thumbor/qpJp9bhRRTybHADfW_aphIp7W_o=/0x0:1024x576/1200x800/filters:focal(431x207:593x369)/cdn.vox-cdn.com/uploads/chorus_image/image/65289065/WiiU_MinecraftWiiUEdition_screenshot_01.0.0.jpg')
             .setColor('#FFFFFF')
