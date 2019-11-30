@@ -8,6 +8,7 @@ exports.run = async (client, message) => {
     .addField('SPOTIFY ACCOUNTS', 'Available: 774 | !spotify')
     .addField('HULU ACCOUNTS', 'Available: 2120 | !hulu')
     .addField('NORDVPN ACCOUNTS', 'Available: 1005 | !nordvpn')
+   .addField('SHEIN ACCOUNTS', 'Available: 462 | $nordvpn')
   .setFooter('D-GEN STOCK')
    .setTimestamp();
  return message.channel.send(embed)
