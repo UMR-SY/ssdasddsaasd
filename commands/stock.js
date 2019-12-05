@@ -9,6 +9,7 @@ exports.run = async (client, message) => {
     .addField('HULU ACCOUNTS', 'Available: 14035 | $hulu')
     .addField('NORDVPN ACCOUNTS', 'Available: 1005 | $nordvpn')
    .addField('SHEIN ACCOUNTS', 'Available: 462 | $shein')
+   .addField('CBS ACCOUNTS', 'Available: 1166 | $cbs')
   .setFooter('SHADEGEN STOCK')
    .setTimestamp();
  return message.channel.send(embed)
