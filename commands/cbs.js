@@ -25,11 +25,11 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Support Server', `https://discord.gg/HDfSBwz`)
+            .addField('Support Server', `https://discord.gg/CDVDzWF`)
             .addField('CBS account',`\n**${account}**`)
             .setThumbnail('https://www.newsobserver.com/latest-news/avjc8k/picture233449682/alternates/FREE_1140/CBS%20LOGO.jpg')
             .setColor('#FFFFFF')
-            .setFooter('Bot made by MRLIT_')
+            .setFooter('Bot made by Norkez')
             .setTimestamp();
 
             msg.author.send(embed);

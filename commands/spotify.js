@@ -25,11 +25,11 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Support Server', `https://discord.gg/HDfSBwz`)
+            .addField('Support Server', `https://discord.gg/CDVDzWF`)
             .addField('Spotify account',`\n**${account}**`)
             .setThumbnail('https://cdn-images-1.medium.com/max/2400/1*BKoo1Q5PBuN87XT4bArK3w.jpeg')
             .setColor('#FFFFFF')
-            .setFooter('Bot made by MRLIT_')
+            .setFooter('Bot made by Norkez')
             .setTimestamp();
 
             msg.author.send(embed);
