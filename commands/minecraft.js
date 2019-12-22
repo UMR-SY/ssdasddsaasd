@@ -13,21 +13,21 @@ module.exports.run = async (client, msg, args, config) => {
                 }, 5000);
             });
     } else {
-        fs.readFile('./accounts/origin.txt', 'utf8', function(err, data) {
+        fs.readFile('./accounts/mc.txt', 'utf8', function(err, data) {
             if (err) throw err;
 
             data = data + '';
             var lines = data.split('\n');
             let account = lines[Math.floor(Math.random() * 1)];
 
-            fs.writeFile('./accounts/origin.txt', lines.slice(1).join('\n'), function(err) {
+            fs.writeFile('./accounts/mc.txt', lines.slice(1).join('\n'), function(err) {
                 if(err) throw err;
             });
 
             let embed = new Discord.RichEmbed()
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
-            .addField('Origin account',`\n**${account}**`)
-            .setThumbnail('https://cdn.freebiesupply.com/logos/large/2x/origin-1-logo-png-transparent.png')
+            .addField('Minecraft account',`\n**${account}**`)
+            .setThumbnail('https://img.favpng.com/15/6/5/minecraft-logo-video-game-clip-art-png-favpng-xVRMPYFWAtkbmyStQWfW8FG8p.jpg')
             .setColor('#FFFFFF')
             .setFooter('Bot made by Norkez')
             .setTimestamp();
@@ -50,6 +50,6 @@ module.exports.run = async (client, msg, args, config) => {
 };
 
 module.exports.help = {
-    name: `minecraft`,
-    description: `Sends you a Origin account!`
+    name: `hulu`,
+    description: `Sends you a Minecraft Premium account!`
 };
