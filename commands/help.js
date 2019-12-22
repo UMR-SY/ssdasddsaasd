@@ -1,34 +1,15 @@
-const Discord = require('discord.js');
+const Discord = require ("discord.js");
 
-module.exports.run = async (client, msg, args, config) => {
-    let embed = new Discord.RichEmbed()
-        .setColor('#E09099')
-        .setDescription(`
-Type **${config.PREFIX}help <command>** for more information about a command.
-For arguments <> means required, [] means optional.`)
-        .addField('Commands', client.commands.map(x => `\`${x.help.name}\``).join(', '))
-        .setFooter(`Bot made by Norkez | Ping: ${client.ping}`)
-        .setTimestamp();
 
-        if(!args.join(' ')) return msg.channel.send(embed);
-
-        let searchCmd = args.join(' ');
-        if(client.commands.has(searchCmd)) {
-            searchCmd = client.commands.get(searchCmd);
-
-            let helpEmbed = new Discord.RichEmbed()
-            .setColor('#E09099')
-            .setDescription(`
-**Name:** ${searchCmd.help.name}
-**Description:** ${searchCmd.help.description}`);
-
-            msg.channel.send(helpEmbed);
-        } else {
-            msg.reply('This command doesn\'t exists.');
-        }
-};
+exports.run = async (client, message, args, level) => {  
+  
+  let embed = new Discord.RichEmbed()
+  
+  .setColor('RANDOM')
+  .addField("`💸` **_Gen commands_**", "` cbs, disney, hulu, nordvpn, origin, shein, spotify, stock`")
+  return message.channel.send(embed)
+  }
 
 module.exports.help = {
-    name: `help`,
-    description: `Bot's commands`
-};
+  name: 'help'
+}
