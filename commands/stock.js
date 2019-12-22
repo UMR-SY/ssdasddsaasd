@@ -5,7 +5,7 @@ exports.run = async (client, message) => {
   .setColor('RANDOM')
   .addField('DISNEY ACCOUNTS', 'Available: 613 | $disney')
     .addField('MINECRAFT ACCOUNTS', 'Available: 1124 | $minecraft')
-    .addField('SPOTIFY ACCOUNTS', 'Available: 774 | $spotify')
+    .addField('SPOTIFY ACCOUNTS', 'Available: 480 | $spotify')
     .addField('ORIGIN ACCOUNTS', 'Available: 925 | $origin')
     .addField('NORDVPN ACCOUNTS', 'Available: 819 | $nordvpn')
    .addField('SHEIN ACCOUNTS', 'Available: 462 | $shein')

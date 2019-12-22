@@ -13,14 +13,14 @@ module.exports.run = async (client, msg, args, config) => {
                 }, 5000);
             });
     } else {
-        fs.readFile('./accounts/mc.txt', 'utf8', function(err, data) {
+        fs.readFile('./accounts/origin.txt', 'utf8', function(err, data) {
             if (err) throw err;
 
             data = data + '';
             var lines = data.split('\n');
             let account = lines[Math.floor(Math.random() * 1)];
 
-            fs.writeFile('./accounts/mc.txt', lines.slice(1).join('\n'), function(err) {
+            fs.writeFile('./accounts/origin.txt', lines.slice(1).join('\n'), function(err) {
                 if(err) throw err;
             });
 
