@@ -13,21 +13,21 @@ module.exports.run = async (client, msg, args, config) => {
                 }, 5000);
             });
     } else {
-        fs.readFile('./accounts/vpn.txt', 'utf8', function(err, data) {
+        fs.readFile('./accounts/steam.txt', 'utf8', function(err, data) {
             if (err) throw err;
 
             data = data + '';
             var lines = data.split('\n');
             let account = lines[Math.floor(Math.random() * 1)];
 
-            fs.writeFile('./accounts/vpn.txt', lines.slice(1).join('\n'), function(err) {
+            fs.writeFile('./accounts/steam.txt', lines.slice(1).join('\n'), function(err) {
                 if(err) throw err;
             });
 
             let embed = new Discord.RichEmbed()
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
-            .addField('Nordvpn account',`\n**${account}**`)
-            .setThumbnail('https://www.google.ro/imgres?imgurl=https%3A%2F%2Fs1.nordcdn.com%2Fnordvpn%2Fmedia%2F1.88.0%2Fimages%2Fmeta%2Fnordvpn-default.png&imgrefurl=https%3A%2F%2Fnordvpn.com%2Fpress-area%2F&docid=bQ7SCZle9zDQaM&tbnid=Z8NAezkJcMZvdM%3A&vet=10ahUKEwiN6Kit1fvlAhXCfFAKHRvOB9wQMwhEKAIwAg..i&w=1080&h=1080&bih=625&biw=1360&q=nordvpn%20logo&ved=0ahUKEwiN6Kit1fvlAhXCfFAKHRvOB9wQMwhEKAIwAg&iact=mrc&uact=8')
+            .addField('Steam account',`\n**${account}**`)
+            .setThumbnail('https://www.google.ro/url?sa=i&url=http%3A%2F%2Fwww.sgherald.com%2Fnews%2FarticleView.html%3Fidxno%3D151&psig=AOvVaw3XcH5Nb5lIDKTA-6ISlGK3&ust=1577135608970000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDS15GWyuYCFQAAAAAdAAAAABAD')
             .setColor('#FFFFFF')
             .setFooter('Bot made by Norkez')
             .setTimestamp();
@@ -50,6 +50,6 @@ module.exports.run = async (client, msg, args, config) => {
 };
 
 module.exports.help = {
-    name: `nordvpn`,
-    description: `Sends you a Nordvpn account!`
+    name: `minecraft`,
+    description: `Sends you a Minecraft Premium account!`
 };
