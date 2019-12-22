@@ -50,6 +50,6 @@ module.exports.run = async (client, msg, args, config) => {
 };
 
 module.exports.help = {
-    name: `minecraft`,
+    name: `origin`,
     description: `Sends you a Origin account!`
 };

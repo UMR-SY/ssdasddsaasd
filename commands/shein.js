@@ -50,6 +50,6 @@ module.exports.run = async (client, msg, args, config) => {
 };
 
 module.exports.help = {
-    name: `spotify`,
-    description: `Sends you a Spotify account!`
+    name: `shein`,
+    description: `Sends you a Shein account!`
 };

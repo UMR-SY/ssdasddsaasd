@@ -50,6 +50,6 @@ module.exports.run = async (client, msg, args, config) => {
 };
 
 module.exports.help = {
-    name: `minecraft`,
-    description: `Sends you a Minecraft account!`
+    name: `cbs`,
+    description: `Sends you a Cbs account!`
 };

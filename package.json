@@ -4,7 +4,7 @@
   "description": "A recode of the first version lol",
   "main": "jewdev.js",
   "scripts": {
-    "start": "node jewdev.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

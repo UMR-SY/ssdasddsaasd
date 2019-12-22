@@ -50,6 +50,6 @@ module.exports.run = async (client, msg, args, config) => {
 };
 
 module.exports.help = {
-    name: `hulu`,
+    name: `minecraft`,
     description: `Sends you a Minecraft Premium account!`
 };
