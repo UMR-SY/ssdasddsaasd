@@ -1,5 +1,3 @@
-keeneraustin@yahoo.com:lauramathis1 | Name = DV8FromTheWorld | Optifine =  | Hypixel level = 1 | HiveMC = Regular | Mineplex = PLAYER
-sebasbazan521@gmail.com:mendez521 | Name = xSebasJJ | Optifine =  | Hypixel level = 24 | HiveMC = Regular | Mineplex = player
 shea_mcconville@yahoo.co.uk:castlecaulfield2 | Name = shea_mcconville | Optifine =  | Hypixel level = 1 | HiveMC = Regular | Mineplex = 
 silvanrose@gmail.com:cocoa614 | Name = Silvander | Optifine =  | Hypixel level = 1 | Mineplex = PLAYER
 mrtigerchen@hotmail.com:Chen3117 | Name = KillCount69 | Optifine =  | Hypixel level = 1 | Mineplex = 
