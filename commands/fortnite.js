@@ -50,6 +50,6 @@ module.exports.run = async (client, msg, args, config) => {
 };
 
 module.exports.help = {
-    name: `minecraft`,
-    description: `Sends you a Minecraft Premium account!`
+    name: `fortnite`,
+    description: `Sends you a Fortnite Premium account!`
 };
