@@ -13,21 +13,21 @@ module.exports.run = async (client, msg, args, config) => {
                 }, 5000);
             });
     } else {
-        fs.readFile('./accounts/steam.txt', 'utf8', function(err, data) {
+        fs.readFile('./accounts/fortnite.txt', 'utf8', function(err, data) {
             if (err) throw err;
 
             data = data + '';
             var lines = data.split('\n');
             let account = lines[Math.floor(Math.random() * 1)];
 
-            fs.writeFile('./accounts/steam.txt', lines.slice(1).join('\n'), function(err) {
+            fs.writeFile('./accounts/fortnite.txt', lines.slice(1).join('\n'), function(err) {
                 if(err) throw err;
             });
 
             let embed = new Discord.RichEmbed()
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
-            .addField('Steam account',`\n**${account}**`)
-            .setThumbnail('https://www.google.ro/url?sa=i&url=http%3A%2F%2Fwww.sgherald.com%2Fnews%2FarticleView.html%3Fidxno%3D151&psig=AOvVaw3XcH5Nb5lIDKTA-6ISlGK3&ust=1577135608970000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDS15GWyuYCFQAAAAAdAAAAABAD')
+            .addField('Fortnite account',`\n**${account}**`)
+            .setThumbnail('')
             .setColor('#FFFFFF')
             .setFooter('Bot made by Norkez')
             .setTimestamp();
