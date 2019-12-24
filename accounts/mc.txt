@@ -1,6 +1,3 @@
-kingjamie121@gmail.com:Hor@tio12 | Name = JamieBots | Optifine =  | Mineplex =
-chaserzzzzz@hotmail.com:Maddog13 | Name = NotAboutTheChase | Optifine =  | Mineplex =
-metaruler@gmail.com:Metalcity18 | Name = Metaruler | Optifine =  | Mineplex =
 snakebot23@gmail.com:grandma11 | Name = Snakebot23 | Optifine =  | Mineplex =
 halbrookjake@gmail.com:Hotlaopo33 | Name = StabbyBacca | Optifine =  | Mineplex =
 www.coolman.com@gmail.com:chancesamR3 | Name = TLChance | Optifine =  | Mineplex =
