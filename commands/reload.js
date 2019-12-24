@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args,ops) => {
   try{
     delete require.cache[require.resolve(`./${args[0]}.js`)];
 
-    return message.channel.send(`Successfully reloaded **${args[0]}.js**`).then(m => m.delete(5000))
+    return message.channel.send(`Successfully reloaded **${args[0]}.js**`).then(m => m.delete(50000))
      }catch(e){
      return message.channel.send(`Unable to reload ${args[0]}`).then(m => m.delete(2000));
      }
