@@ -1,12 +1,3 @@
-alexwilliams4293@icloud.com:Rascal4293 | Name = TaZo_Eclipse | Optifine =  | Hypixel level = 10 | HiveMC = Regular | Mineplex = PLAYER
-alistair.ridge042@gmail.com:Gelet0812 | Name = All_star159 | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
-allee.williams2017@gmail.com:Wilson2113 | Name = Xenoas | Optifine =  | Mineplex =
-allie.sangalli@gmail.com:Penguin926 | Name = CalzareN | Optifine =  | Mineplex =
-aln3imi.qatar@hotmail.com:Qatar2022 | Name = ALN3IMI | Optifine =  | Mineplex =
-aloesel2@gmail.com:AndrewL6060 | Name = loesel19 | Optifine =  | Mineplex =
-alvalvbto@hotmail.com:Camilo01 | Name = wafflyslinky | Optifine =  | Mineplex =
-alwaysasbefore@gmail.com:Lr86397! | Name = Alwaysasbefore | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
-amadeo.cecile@gmail.com:antoine123 | Name = Antoinos | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
 amanda.bache@gmail.com:Kalundborg4400 | Name = amandabache | Optifine =  | Hypixel level = 7 | HiveMC = Regular | Mineplex = PLAYER
 ambziebambzi@hotmail.co.uk:Autumn20 | Name = AmberLouise95 | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
 amchecchia@gmail.com:Troponin.1 | Name = amchec | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
