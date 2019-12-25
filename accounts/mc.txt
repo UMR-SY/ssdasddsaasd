@@ -1,6 +1,3 @@
-abgbhr@gmail.com:1804codeCIVIL | Name = abgbhr | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
-abk_1130@yahoo.com:Tristan#1 | Name = abk_1130 | Optifine =  | Mineplex =
-abro.blanco@gmail.com:Texans#62 | Name = Abethewhite | Optifine =  | Hypixel level = 1 | Mineplex =
 achesem@gmail.com:hsm12131 | Name = Achesem | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
 adammajcher27@yahoo.com:animals6950 | Name = Moonless_ | Optifine =  | HiveMC = Regular | Mineplex = PLAYER
 adfloresca@gmail.com:miKhail098 | Name = TrashWizard | Optifine =  | Mineplex = PLAYER
