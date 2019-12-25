@@ -1,7 +1,3 @@
-aaltonen92@windowslive.com:060992-113h | Name = aaltonen92 | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
-aaronkid222@hotmail.com:Sxesxe22 | Name = aaronkid2 | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
-abbryan11@gmail.com:peepers114 | Name = aBagel145 | Optifine =  | Hypixel level = 4 | Mineplex = PLAYER
-abdullahfahadj@hotmail.com:abdullah1fahad | Name = abdullah_fahad | Optifine =  | HiveMC = Regular | Mineplex =
 abdulrahman.alamoudi@hotmail.com:5578128Aa | Name = Alamoudi98 | Optifine =  | Hypixel level = 1 | Mineplex = PLAYER
 abgbhr@gmail.com:1804codeCIVIL | Name = abgbhr | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
 abk_1130@yahoo.com:Tristan#1 | Name = abk_1130 | Optifine =  | Mineplex =
