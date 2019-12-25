@@ -8,6 +8,7 @@ exports.run = async (client, message) => {
     .addField('MINECRAFT ACCOUNTS', 'Available: 632 | $minecraft')
     .addField('ORIGIN ACCOUNTS', 'Available: 413 | $origin')
     .addField('FORTNITE ACCOUNTS', 'Available: 1118 | $fortnite')
+    .addField('NITRO ACCOUNTS', 'Available: 1600 | $nitro')
     .addField('HULU ACCOUNTS', 'Available: 4995 | $hulu')
     .addField('PROXY IPS', 'Available: 1547 | $proxy')
     .addField('NORDVPN ACCOUNTS', 'Available: 532 | $nordvpn')
