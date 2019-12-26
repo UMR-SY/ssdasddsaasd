@@ -5,13 +5,10 @@ exports.run = async (client, message, args, level) => {
   
   let embed = new Discord.RichEmbed()
   
-.setTitle("Comenzi")
+.setTitle("Stock")
   .setColor('RANDOM')
-  .addField("Spotify", "`1600`")
-  .addField("Fortnite" , "`1000`")
-  .addField("Nitro", "`1500`")
-  .addField("Origin", "`500`")
-  .addField("")
+.addField("**Origin**: `1600`", "")
+  
   return message.channel.send(embed)
   }
 
