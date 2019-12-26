@@ -1,25 +1,45 @@
-const Discord = require ("discord.js");
+const Discord = require('discord.js');
 
+module.exports.run = async (client, msg, args, config) => {
+    let embed = new Discord.RichEmbed()
+        .setColor('RANDOM')
+        .setTitle('Stock')
+        .setURL('https://discordapp.com/api/oauth2/authorize?client_id=659451089266933760&permissions=8&scope=bot')
+        .setDescription(`
+__**Stock Accounts**__`)
+        .addField('⠀', "⠀")
+        .addField('**✩** `$minecraft` 1500 **.**', "⠀")
+        .addField('**✩** `$disney` 800**.**', "⠀")
+        .addField('**✩** `$hulu`  1000**.**', "⠀")
+        .addField('**✩** `$origin` 900 **.**', "⠀")
+        .addField('**✩** `$cbs` 1000 **.**', "⠀")
+        .addField('**✩** `$nitro`  2500**.**', "⠀")
+        .addField('**✩** `$nordvpn` 1500 **.**', "⠀")
+        .addField('**✩** `$proxy` 2500**.**', "⠀")
+        .addField('**✩** `$shein`  1200**.**', "⠀")
+        .addField('**✩** `$fortnite`  1500**.**', "⠀")
+        .addField('**✩** `$spotify`  1000**.**', "⠀")
+        .setTimestamp();
 
-exports.run = async (client, message, args, level) => {  
-  
-  let embed = new Discord.RichEmbed()
-  
-.setTitle("Stock")
-  .addField("**Origin**: `1600`", "")// st ca bag eu comanda de dmall pe dal drq tot dau afk:)))))
-  
-  
-  
-  
-  
+        if(!args.join(' ')) return msg.channel.send(embed);
 
-  
-  .setColor('RANDOM')
+        let searchCmd = args.join(' ');
+        if(client.commands.has(searchCmd)) {
+            searchCmd = client.commands.get(searchCmd);
 
-  
-  return message.channel.send(embed)
-  }
+            let helpEmbed = new Discord.RichEmbed()
+            .setColor('#E09099')
+            .setDescription(`
+**Name:** ${searchCmd.help.name}
+**Description:** ${searchCmd.help.description}`);
+
+            msg.channel.send(helpEmbed);
+        } else {
+            msg.reply('This command doesn\'t exists.');
+        }
+};
 
 module.exports.help = {
-  name: 'stock'
-}
+    name: `stock`,
+    description: `Stock accounts`
+};

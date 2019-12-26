@@ -38,7 +38,7 @@ module.exports.run = async (client, msg, args, config) => {
                 .then(m => {
                     setTimeout(() => {
                         m.delete();
-                    }, 9000);
+                    }, 900000);
                 });
 
             cooldown.add(msg.author.id);
