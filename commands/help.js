@@ -18,6 +18,8 @@ __**GENERATOR COMMANDS**__`)
         .addField('**✩** `$proxy` To Get A Proxy **.**', "⠀")
         .addField('**✩** `$shein` To Get A Shein Account **.**', "⠀")
         .addField('**✩** `$spotify` To Get A Spotify Account **.**', "⠀")
+        .addField('⠀', "⠀")
+        .addField('⠀', "**✩** Remember that you are using the free generator, this accounts may not work !")
         .setFooter(`Bot made by Norkez | Ping: ${client.ping}`)
         .setTimestamp();
 
