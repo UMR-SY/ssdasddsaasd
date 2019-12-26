@@ -17,7 +17,7 @@ __**Stock Accounts**__`)
         .addField('**✩** `$nordvpn` 1500 **.**', "⠀")
         .addField('**✩** `$proxy` unlimited**.**', "⠀")
         .addField('**✩** `$shein`  1200**.**', "⠀")
-        .addField('**✩** `$fortnite`  0**.**', "⠀")
+        .addField('**✩** `$fortnite`  84**.**', "⠀")
         .addField('**✩** `$spotify`  5000**.**', "⠀")
         .setTimestamp();
 
