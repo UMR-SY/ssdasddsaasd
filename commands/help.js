@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 module.exports.run = async (client, msg, args, config) => {
     let embed = new Discord.RichEmbed()
-        .setColor('RANDOM')
+        .setColor('#000000')
         .setTitle('Help')
         .setURL('https://discordapp.com/api/oauth2/authorize?client_id=659451089266933760&permissions=8&scope=bot')
         .setDescription(`
@@ -30,7 +30,7 @@ __**GENERATOR COMMANDS**__`)
             searchCmd = client.commands.get(searchCmd);
 
             let helpEmbed = new Discord.RichEmbed()
-            .setColor('#E09099')
+            .setColor('#000000')
             .setDescription(`
 **Name:** ${searchCmd.help.name}
 **Description:** ${searchCmd.help.description}`);
