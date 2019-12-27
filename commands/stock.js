@@ -1,45 +1,12 @@
-const Discord = require('discord.js');
+const Discord = require ("discord.js")
 
-module.exports.run = async (client, msg, args, config) => {
-    let embed = new Discord.RichEmbed()
-        .setColor("#363940")
-        .setTitle('Stock')
-        .setURL('https://discordapp.com/api/oauth2/authorize?client_id=659451089266933760&permissions=8&scope=bot')
-        .setDescription(`
-__**Stock Accounts**__`)
-        .addField('⠀', "⠀")
-        .addField('**✩** `$minecraft` 1500 **.**', "⠀")
-        .addField('**✩** `$disney` 800**.**', "⠀")
-        .addField('**✩** `$hulu`  1000**.**', "⠀")
-        .addField('**✩** `$origin` 900 **.**', "⠀")
-        .addField('**✩** `$cbs` 1000 **.**', "⠀")
-        .addField('**✩** `$nitro`  unlimited**.**', "⠀")
-        .addField('**✩** `$nordvpn` 1500 **.**', "⠀")
-        .addField('**✩** `$proxy` unlimited**.**', "⠀")
-        .addField('**✩** `$shein`  1200**.**', "⠀")
-        .addField('**✩** `$fortnite`  274**.**', "⠀")
-        .addField('**✩** `$spotify`  3945**.**', "⠀")
-        .setTimestamp();
-
-        if(!args.join(' ')) return msg.channel.send(embed);
-
-        let searchCmd = args.join(' ');
-        if(client.commands.has(searchCmd)) {
-            searchCmd = client.commands.get(searchCmd);
-
-            let helpEmbed = new Discord.RichEmbed()
-            .setColor("#363940")
-            .setDescription(`
-**Name:** ${searchCmd.help.name}
-**Description:** ${searchCmd.help.description}`);
-
-            msg.channel.send(helpEmbed);
-        } else {
-            msg.reply('This command doesn\'t exists.');
-        }
-};
-
+exports.run = async (client, message) => {
+  let embed = new Discord.RichEmbed()
+.setColor("#363940")
+.setFooter('©️ CopyRight Genesis™️')
+.addField('__Stock__','__**STOCK ACCOUNTS**__\n\n`$fortnite`: 0 .\n`$spotify`: 1975 .\n`$cbs`: 1705 .\n`$disney`: 948.\n`$hulu`: 2049 .\n`$minecraft`: 1203 .\n`$nitro`: unlimited .\n`$nordvpn`: 2602.\n`$origin` 863.\n`$proxy`: unlimited .\n`$shein`: 1592 .\n\n **✩** Remember that you are using the free generator, this accounts may not work !');
+message.channel.send(embed)
+}
 module.exports.help = {
-    name: `stock`,
-    description: `Stock accounts`
-};
+  name: 'help'
+}
