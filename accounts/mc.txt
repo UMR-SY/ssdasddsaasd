@@ -1,4 +1,3 @@
-canonhunts@gmail.com:Canon127 | Name = TediousTriangle | Optifine =  | Hypixel level = 1 | Mineplex =
 caramerkel@gmail.com:markcara1120 | Name = carebear_swag | Optifine =  | Mineplex =
 carefreeluck@yahoo.com:Ap200812 | Name = CareFreeLuck | Unmigrated =  | Migrated =  | Secured =  | Hypixel =  | Hypixel level = 1 | HiveMC = Regular
 carlandrew09@gmail.com:carlai09 | Name = Carl_AI | Optifine =  | Mineplex =
