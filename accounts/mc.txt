@@ -1,7 +1,3 @@
-cdm295@hotmail.com:Muffins123 | Name = CAMER890 | Optifine =  | Hypixel level = 1 | Mineplex = PLAYER
-cdtcowfer@gmail.com:Cdtc323259 | Name = Cdtcowfer | Optifine =  | Mineplex =
-celtic1108@yahoo.com:Forever1 | Name = TheGamingPug121 | Optifine =  | Hypixel level = 3 | HiveMC = Regular | Mineplex = player
-cesar.quitralg@gmail.com:cesar1987 | Name = MCMythos | Optifine =  | Mineplex = PLAYER
 cfawcett132@gmail.com:G3tm3th3g00ds# | Name = cfawcett132 | Unmigrated =  | Migrated =  | Secured =  | Hypixel =  | Hypixel level = 1
 Cgildemeis2@gmail.com:Dirtbike77 | Name = cgildemeis2 | Optifine =  | Hypixel level = 1 | HiveMC = Regular | Mineplex = PLAYER
 charlesacuna47@gmail.com:doglover72 | Name = charles4794 | Unmigrated =  | Migrated =  | Secured =  | Hypixel =  | Hypixel level =
