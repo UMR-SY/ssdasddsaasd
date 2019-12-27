@@ -1,6 +1,3 @@
-chepediaz9@gmail.com:Lobonegro123 | Name = Chepediaz | Unmigrated =  | Migrated =  | Secured =  | Hypixel =  | Hypixel level = 1
-chris235063@hotmail.com:chris235063 | Name = chrislikespie98 | Unmigrated =  | Migrated =  | Secured =  | Hypixel =  | Hypixel level = 1 | HiveMC = Regular
-chriscleveland95@gmail.com:crcaw1829 | Name = SitkaWolf | Optifine =  | Mineplex =
 chrisnosce@yahoo.com:1Noscechris | Name = _The_Technician_ | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
 christian.barrett1997@gmail.com:chr1stian | Name = cwiten | Unmigrated =  | Migrated =  | Secured =  | Hypixel =  | Hypixel level = 1
 christianbatie02@yahoo.com:hippo101 | Name = Christianbatie | Optifine =  | Mineplex =
