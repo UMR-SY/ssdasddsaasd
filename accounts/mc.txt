@@ -1,4 +1,3 @@
-bwrightrock@gmail.com:JWhite82 | Name = wrightbryant | Optifine =  | Hypixel level = 1 | Mineplex = PLAYER
 calebgodin@hotmail.com:RedSox2004 | Name = Celeb_24_40 | Optifine =  | Hypixel level = 4 | HiveMC = Regular | Mineplex =
 caleblingard@gmail.com:jackal12 | Name = DrDracula | Optifine =  | Mineplex =
 calegriamarin@gmail.com:9JK68MCP | Name = CMZeus | Unmigrated =  | Migrated =  | Secured =  | Hypixel =  | Hypixel level = 40 | HiveMC = Regular
