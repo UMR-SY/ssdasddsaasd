@@ -18,7 +18,7 @@ __**Stock Accounts**__`)
         .addField('**✩** `$proxy` unlimited**.**', "⠀")
         .addField('**✩** `$shein`  1200**.**', "⠀")
         .addField('**✩** `$fortnite`  0**.**', "⠀")
-        .addField('**✩** `$spotify`  5000**.**', "⠀")
+        .addField('**✩** `$spotify`  3945**.**', "⠀")
         .setTimestamp();
 
         if(!args.join(' ')) return msg.channel.send(embed);
