@@ -1,5 +1,3 @@
-caligiurimatt@gmail.com:Lacrosse13 | Name = Da_Original_Mc | Unmigrated =  | Migrated =  | Secured =  | Hypixel =  | Hypixel level = 1 | HiveMC = Regular
-calriggs@hotmail.com:wfpackers#8 | Name = MrIonic | Optifine =  | HiveMC = Regular | Mineplex =
 camilodecalisto@gmail.com:Camiloprice101 | Name = Phax3 | Optifine =  | Mineplex =
 canonhunts@gmail.com:Canon127 | Name = TediousTriangle | Optifine =  | Hypixel level = 1 | Mineplex =
 caramerkel@gmail.com:markcara1120 | Name = carebear_swag | Optifine =  | Mineplex =
