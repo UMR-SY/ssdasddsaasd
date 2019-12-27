@@ -34,7 +34,7 @@ client.on('warn', () => console.warn);
 
 client.on('ready', () => {
 	console.log('Ready!');
-	client.user.setActivity(`$help | ${client.guilds.size} Servers `, { type: 'WATCHING' });
+	client.user.setActivity(`steel-zone.ro/genesis/ `, { type: 'PLAYING' });
 	 console.log(`Ready to serve in ${client.channels.size} channels on ${client.guilds.size} servers, for a total of ${client.users.size} users.`);
 
 
