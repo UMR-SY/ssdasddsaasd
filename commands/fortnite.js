@@ -28,7 +28,7 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
             .addField('Fortnite account',`\n**${account}**`)
             .setThumbnail('https://steamuserimages-a.akamaihd.net/ugc/2438013375545542318/66E1CB5FBE2D04901F697975545A88D6B412192C/')
-            .setColor('#FFFFFF')
+            .setColor("#363940")
             .setFooter('Bot made by Norkez')
             .setTimestamp();
 

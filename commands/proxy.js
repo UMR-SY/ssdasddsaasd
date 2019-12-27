@@ -28,7 +28,7 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
             .addField('Proxy http',`\n**${account}**`)
             .setThumbnail('https://cdn.dribbble.com/users/180062/screenshots/6841216/8211ce68-13ab-493e-b4f2-0393b009e9ea_2x.png')
-            .setColor('#FFFFFF')
+            .setColor("#363940")
             .setFooter('Bot made by Norkez')
             .setTimestamp();
 

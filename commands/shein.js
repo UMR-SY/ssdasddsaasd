@@ -28,7 +28,7 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
             .addField('Spotify account',`\n**${account}**`)
             .setThumbnail('https://i.pinimg.com/originals/b4/6a/f8/b46af8cef867c92bfca365c72656540e.jpg')
-            .setColor('#FFFFFF')
+            .setColor("#363940")
             .setFooter('Bot made by Norkez')
             .setTimestamp();
 

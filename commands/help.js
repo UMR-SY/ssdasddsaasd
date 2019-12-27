@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 module.exports.run = async (client, msg, args, config) => {
     let embed = new Discord.RichEmbed()
-        .setColor('#000000')
+        .setColor("#363940")
         .setTitle('Help')
         .setURL('https://discordapp.com/api/oauth2/authorize?client_id=659451089266933760&permissions=8&scope=bot')
         .setDescription(`

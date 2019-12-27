@@ -10,7 +10,7 @@ if(!args.join(" ")){
 }
 let sayembed = new Discord.RichEmbed({
 disabelEveryone: true})
-.setColor('invisible')
+.setColor("#363940")
 .addField(`${message.author.tag} wanted me to say:`, args.join(" "))
 .setTimestamp(message.createdAt)
 

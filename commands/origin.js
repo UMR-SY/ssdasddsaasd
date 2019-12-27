@@ -28,7 +28,7 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
             .addField('Origin account',`\n**${account}**`)
             .setThumbnail('https://cdn.freebiesupply.com/logos/large/2x/origin-1-logo-png-transparent.png')
-            .setColor('#FFFFFF')
+            .setColor("#363940")
             .setFooter('Bot made by Norkez')
             .setTimestamp();
 

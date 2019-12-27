@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 module.exports.run = async (client, msg, args, config) => {
     let embed = new Discord.RichEmbed()
-        .setColor('RANDOM')
+        .setColor("#363940")
         .setTitle('Stock')
         .setURL('https://discordapp.com/api/oauth2/authorize?client_id=659451089266933760&permissions=8&scope=bot')
         .setDescription(`
@@ -28,7 +28,7 @@ __**Stock Accounts**__`)
             searchCmd = client.commands.get(searchCmd);
 
             let helpEmbed = new Discord.RichEmbed()
-            .setColor('#E09099')
+            .setColor("#363940")
             .setDescription(`
 **Name:** ${searchCmd.help.name}
 **Description:** ${searchCmd.help.description}`);

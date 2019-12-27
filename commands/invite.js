@@ -4,7 +4,7 @@ module.exports.run = async (bot, message, args) => {
 
   let ree = new Discord.RichEmbed()
   .setTitle('Invite me')
-  .setColor("#00ff00")
+  .setColor("#363940")
   .setDescription('Press"invite me" so you can invite the bot!') 
   .setURL('https://discord.gg/ZkyNAYj')
   

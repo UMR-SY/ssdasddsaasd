@@ -28,7 +28,7 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
             .addField('Hulu account',`\n**${account}**`)
             .setThumbnail('https://www.google.ro/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjMkrzh1vvlAhVDIMUKHTdmBHsQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.hulu.com%2F&psig=AOvVaw0ROZFwc7lBY_r7zazhhJmO&ust=1574438527052523')
-            .setColor('#FFFFFF')
+            .setColor("#363940")
             .setFooter('Bot made by Norkez')
             .setTimestamp();
 
