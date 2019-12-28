@@ -1,5 +1,3 @@
-cole.martin53@gmail.com:gogators#53 | Name = gatorhead53 | Optifine =  | Mineplex =
-conaam14@gmail.com:Azeop14_ | Name = BigOlConst | Optifine =  | Hypixel level = 1 | Mineplex =
 connjay1012@gmail.com:Conlilash1 | Name = Conjers | Optifine =  | Hypixel level = 9 | HiveMC = Regular | Mineplex = PLAYER
 corbinmaltba@gmail.com:LeviCorbin1 | Name = Corbstein | Optifine =  | Hypixel level = 1 | Mineplex = player
 cpogue16@live.com:Sooner12 | Name = Thunderforever | Optifine =  | Hypixel level = 1 | Mineplex =
