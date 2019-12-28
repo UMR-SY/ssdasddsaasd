@@ -1,6 +1,3 @@
-dagerikharald@gmail.com:hynygubbe10195 | Name = skoogy2 | Optifine =  | Mineplex =
-dakotarocks10@hotmail.com:Ludakotaca1 | Name = DODABRO | Optifine =  | Hypixel level = 1 | HiveMC = Regular | Mineplex = player
-dallasgianniny@gmail.com:_Dalas012 | Name = iKaanEagle | Optifine =  | Hypixel level = 1 | Mineplex = PLAYER
 dallinbriggs@gmail.com:access11 | Name = aer0tec | Optifine =  | Hypixel level = 1 | Mineplex =
 daltonc1995@hotmail.com:qwerty12123 | Name = daltonc1995 | Optifine =  | Mineplex =
 damianphillips1998@gmail.com:Damian98 | Name = 3bd0 | Optifine =  | Mineplex =
