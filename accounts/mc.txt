@@ -1,5 +1,3 @@
-dallinbriggs@gmail.com:access11 | Name = aer0tec | Optifine =  | Hypixel level = 1 | Mineplex =
-daltonc1995@hotmail.com:qwerty12123 | Name = daltonc1995 | Optifine =  | Mineplex =
 damianphillips1998@gmail.com:Damian98 | Name = 3bd0 | Optifine =  | Mineplex =
 damirschwarz@gmail.com:damir159753 | Name = damirs | Unmigrated =  | Migrated =  | Secured =  | Hypixel =  | Hypixel level =
 danielciavolella@yahoo.com:Yankeesrock52 | Name = ThatGuyDan98 | Optifine =  | Hypixel level = 2 | Mineplex =
