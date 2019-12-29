@@ -33,13 +33,30 @@ client.on('error', () => console.error);
 
 client.on('warn', () => console.warn);
 
-client.on('ready', () => {
-	console.log('Ready!');
-	client.user.setActivity(`steel-zone.ro/genesis/ `, { type: 'PLAYING' });
-	 console.log(`Ready to serve in ${client.channels.size} channels on ${client.guilds.size} servers, for a total of ${client.users.size} users.`);
+client.on('ready', function() {
+      setInterval(async () => {
+    const statuslist = [
+      `$help | ${client.guilds.size} servers`,
+      `$help | ${client.channels.size} channels`,
+      `$help | ${client.users.size} users`
+    ];
+    const random = Math.floor(Math.random() * statuslist.length);
 
-
+    try {
+      await client.user.setPresence({
+        game: {
+          name: `${statuslist[random]}`,
+          type: "PLAYING"
+          //url: 'https://www.twitch.tv/spokloo'
+        },
+        status: "do not disturb"
+      });
+    } catch (error) {
+      console.error(error);
+    }
+  }, 10000);
 });
+	 console.log(`Ready to serve in ${client.channels.size} channels on ${client.guilds.size} servers, for a total of ${client.users.size} users.`);
 
 client.on('message', async (msg) => {
     if(msg.author.bot) return;
