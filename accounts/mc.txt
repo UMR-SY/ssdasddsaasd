@@ -1,7 +1,3 @@
-jacobhyzak@gmail.com:Bently123 | Name = Fallen_Exotic | Optifine =  | Hypixel level = 14 | HiveMC = Regular | Mineplex = PLAYER
-jacobrr123@gmail.com:lakerkobe1 | Name = KingKillaPlays | Optifine =  | Mineplex =
-jacobychile@gmail.com:Bleachfan#1 | Name = EmpireVoyles | Optifine =  | Hypixel level = 1 | Mineplex =
-jadengaines@gmail.com:jaden101 | Name = Lifeisabeach10 | Optifine =  | Mineplex =
 jahnkerachaellynn@gmail.com:rlynnj736 | Name = RachaelSherm | Optifine =  | Mineplex =
 jake.skein@gmail.com:The_Fatler5 | Name = Angelinka | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
 jakedasnake485@gmail.com:Jl602957 | Name = Surge_Illusionz | Optifine =  | Hypixel level = 2 | Mineplex =
