@@ -1,7 +1,3 @@
-isabel_betancourt@att.net:iluvneo1 | Name = bobbyg001 | Optifine =  | Hypixel level = 1 | Mineplex =
-ivaughan1616@gmail.com:Hogbait1 | Name = isaac_vaughan | Optifine =  | Mineplex =
-ivyc0826@gmail.com:ivyorange26 | Name = abbykidabee | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
-izelgowski@gmail.com:@Test3802 | Name = iZelgowski | Optifine =  | Hypixel = [MOSCOW] | Hypixel level = 9 | Mineplex =
 jackh9715@gmail.com:huekaiser69 | Name = Gumbleberry | Optifine =  | Mineplex =
 jacobbalquier@yahoo.com:Banksy785 | Name = FuturaAllDay | Optifine =  | Hypixel level = 8 | HiveMC = Regular | Mineplex = player
 jacobeckard.email@gmail.com:Error401k | Name = Reactorcore | Optifine =  | HiveMC = Regular | Mineplex = player
