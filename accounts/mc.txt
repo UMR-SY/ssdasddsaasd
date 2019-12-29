@@ -1,4 +1,3 @@
-huifredrik@hotmail.com:e6i8fep3 | Name = frehui | Optifine =  | Mineplex =
 hunter.edkins@gmail.com:hunter1010 | Name = FayForce17 | Optifine =  | Hypixel level = 7 | HiveMC = Regular | Mineplex = PLAYER
 iambrettd@gmail.com:enzoDog3 | Name = AlpacaBoy | Optifine =  | Hypixel level = 1 | Mineplex =
 icecolb13@gmail.com:Colby123 | Name = WolfmasterDj36 | Optifine =  | Hypixel level = 11 | HiveMC = Regular | Mineplex = ULTRA
