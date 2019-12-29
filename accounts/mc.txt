@@ -1,6 +1,3 @@
-housersch@gmail.com:Missing213 | Name = housersc | Optifine =  | Mineplex =
-houstonsam6582@gmail.com:cougars55 | Name = TheBradTopham | Optifine =  | Mineplex =
-hsp0703@gmail.com:h292152p | Name = digitilsoul | Unmigrated =  | Migrated =  | Secured =  | Hypixel =  | Hypixel level = 1 | HiveMC = Regular
 huifredrik@hotmail.com:e6i8fep3 | Name = frehui | Optifine =  | Mineplex =
 hunter.edkins@gmail.com:hunter1010 | Name = FayForce17 | Optifine =  | Hypixel level = 7 | HiveMC = Regular | Mineplex = PLAYER
 iambrettd@gmail.com:enzoDog3 | Name = AlpacaBoy | Optifine =  | Hypixel level = 1 | Mineplex =
