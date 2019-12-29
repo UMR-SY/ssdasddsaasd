@@ -1,5 +1,3 @@
-florian@schels.org:F28j2S3j5 | Name = Erobring | Optifine =  | HiveMC = Regular | Mineplex = player
-frances.senn@gmail.com:Paleo889 | Name = wholetoast | Optifine =  | Hypixel level = 2 | Mineplex =
 frankbruurs1991@live.nl:Frankie16. | Name = Razor_NL1991 | Optifine =  | Hypixel level = 25 | HiveMC = Regular | Mineplex = PLAYER
 Frederikkebruun@gmail.com:Akt75usk | Name = AleXaMImo | Optifine =  | Hypixel =  | Hypixel level =  | Mineplex =
 fredrik.p.persson@gmail.com:tankmule1 | Name = misterpommeroy | Optifine =  | Mineplex =
