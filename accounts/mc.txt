@@ -1,7 +1,3 @@
-hunter.edkins@gmail.com:hunter1010 | Name = FayForce17 | Optifine =  | Hypixel level = 7 | HiveMC = Regular | Mineplex = PLAYER
-iambrettd@gmail.com:enzoDog3 | Name = AlpacaBoy | Optifine =  | Hypixel level = 1 | Mineplex =
-icecolb13@gmail.com:Colby123 | Name = WolfmasterDj36 | Optifine =  | Hypixel level = 11 | HiveMC = Regular | Mineplex = ULTRA
-icravekiwi@aim.com:jake4349 | Name = Kumguzzler | Optifine =  | Mineplex =
 idk_53@yahoo.com:rac652004 | Name = Bowzors | Optifine =  | Mineplex =
 imyazlan94@gmail.com:Aa120064 | Name = Architrave | Optifine =  | Mineplex =
 ioandumitru.margarit@gmail.com:Filo9119 | Name = WillMineForFood | Optifine =  | Hypixel level = 3 | HiveMC = Regular | Mineplex = PLAYER
