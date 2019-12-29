@@ -1,5 +1,3 @@
-evans07@me.com:ewarcraft16s | Name = Brute07 | Optifine =  | Mineplex =
-exoticdreamer@yandex.ru:23a07a1997p | Name = ExoticDreamer | Optifine =  | Mineplex =
 fajtek7@gmail.com:Calzedonia12 | Name = Fajtek | Optifine =  | Hypixel level = 8 | HiveMC = Regular | Mineplex = PLAYER
 fchavezmagana@gmail.com:Braata55 | Name = FCM | Optifine =  | Mineplex =
 feketefelix@gmail.com:bocika424 | Name = hehexd2006 | Optifine =  | Mineplex =
