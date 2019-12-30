@@ -34,7 +34,7 @@ module.exports.run = async (client, msg, args, config) => {
 
             msg.author.send(embed);
 
-            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/NReRSCx')
+            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/zVHfvZp')
                 .then(m => {
                     setTimeout(() => {
                         m.delete();
