@@ -1,9 +1,3 @@
-kalikokyle@gmail.com:Ku0830522 | Name = kalikokyle | Optifine =  | Hypixel level = 2 | Mineplex = player
-kallum960@hotmail.co.uk:eloise456789 | Name = ellaplays | Optifine =  | Hypixel level = 1 | Mineplex = player
-kalokliwkasir@gmail.com:11daniel11 | Name = Mishin | Optifine =  | Hypixel level = 18 | HiveMC = Regular | Mineplex = PLAYER
-kalymnos72@yahoo.com:Andros67 | Name = 0livmeister | Optifine =  | Hypixel level = 9 | HiveMC = Regular | Mineplex = LEGEND
-kamakazi303@gmail.com:jmonster36 | Name = UnKnOwN_xx_P1MP | Optifine =  | Hypixel level = 2 | HiveMC = Regular | Mineplex =
-kamal.ramnares@gmail.com:22kamal22 | Name = kamalramnares | Optifine =  | Mineplex =
 kamaodark@gmail.com:durakote420 | Name = Kamaodark | Optifine =  | Hypixel level = 10 | HiveMC = Regular | Mineplex = PLAYER
 kamghamdi@gmail.com:Dammam513 | Name = ammarkhalid | Optifine =  | Hypixel level = 4 | HiveMC = Regular | Mineplex = PLAYER
 kamilam1704@icloud.com:Lamiokor1704 | Name = Kamiplaysmc | Optifine =  | HiveMC = Regular | Mineplex = PLAYER
