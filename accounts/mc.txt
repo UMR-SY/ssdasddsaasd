@@ -1,5 +1,3 @@
-andrejsavic06@gmail.com:andrej103 | Name = Ankzy | Optifine =  | Hypixel level = 12 | Mineplex = PLAYER
-idarklord30@gmail.com:5660691a | Name = DarkRift3r | Optifine =  | Hypixel level = 9 | HiveMC = Regular | Mineplex = PLAYER
 kciomka@o2.pl:babol2323 | Name = Popychaczu | Optifine =  | Hypixel level = 2 | Mineplex = 
 ronyaas___@hotmail.com:170286para | Name = Prophet_BR | Optifine =  | Hypixel level = 1 | Mineplex = PLAYER
 ivaniraigor@mail.ru:vano852258 | Name = GameBot85 | Optifine =  | Hypixel level = 5 | HiveMC = Regular | Mineplex = player
