@@ -1,4 +1,3 @@
-pierre.hamelin@Epitech.eu:d3d3isfun | Name = ItzShhhrek | Optifine =  | Hypixel level = 14 | HiveMC = Regular | Mineplex = player
 jan.karlenius@gmail.com:Orphen94 | Name = A7JMi1jdasyxopy | Optifine =  | Mineplex = 
 paladin123@hotmail.co.uk:Preston321 | Name = gillespie1204 | Optifine =  | Mineplex = 
 runarbrekkan@hotmail.com:peturinn1 | Name = Petrun2000 | Optifine =  | Hypixel level = 1 | HiveMC = Regular | Mineplex = 
