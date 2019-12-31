@@ -1,7 +1,3 @@
-victorkarlsen@gmail.com:Tinka2010 | Name = Victorkarlsen | Optifine =  | Mineplex = 
-SF_Bjorksen@hotmail.com:Husqvarna125sx | Name = Bjorksen | Optifine =  | Mineplex = 
-spartaharlon@gmail.com:Isaura1 | Name = XDarwin25 | Optifine =  | Hypixel level = 5 | HiveMC = Regular | Mineplex = PLAYER
-magicangelina03@yahoo.com:Nguyen08 | Name = bbyange | Optifine =  | Hypixel level = 4 | Mineplex = PLAYER
 jespuur@hotmail.com:grillchips90 | Name = jespuur | Optifine =  | Hypixel level = 1 | HiveMC = Regular | Mineplex = 
 Wowisabell@hotmail.com:l64841725 | Name = Archerliite | Optifine =  | Mineplex = 
 pierre.hamelin@Epitech.eu:d3d3isfun | Name = ItzShhhrek | Optifine =  | Hypixel level = 14 | HiveMC = Regular | Mineplex = player
