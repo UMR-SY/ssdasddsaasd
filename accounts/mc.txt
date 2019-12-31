@@ -1,5 +1,3 @@
-ivaniraigor@mail.ru:vano852258 | Name = GameBot85 | Optifine =  | Hypixel level = 5 | HiveMC = Regular | Mineplex = player
-kploom@msn.com:lilleke5 | Name = ploomk | Optifine =  | Mineplex = 
 victorkarlsen@gmail.com:Tinka2010 | Name = Victorkarlsen | Optifine =  | Mineplex = 
 SF_Bjorksen@hotmail.com:Husqvarna125sx | Name = Bjorksen | Optifine =  | Mineplex = 
 spartaharlon@gmail.com:Isaura1 | Name = XDarwin25 | Optifine =  | Hypixel level = 5 | HiveMC = Regular | Mineplex = PLAYER
