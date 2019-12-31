@@ -1,7 +1,3 @@
-tfsferreira1@gmail.com:Centoeum101 | Name = tfsferreira | Optifine =  | Hypixel level = 6 | HiveMC = Regular | Mineplex = PLAYER
-O.lamr30@gmail.com:Lama26519988 | Name = NajDrew | Optifine =  | Mineplex = 
-kostazauras@gmail.com:kostas1998 | Name = _Kostars | Optifine =  | Hypixel level = 12 | HiveMC = Regular | Mineplex = PLAYER
-saadx4d@gmail.com:asdzxc19734015 | Name = SAADx4D | Optifine =  | Hypixel level = 2 | HiveMC = Regular | Mineplex = 
 pies880@gmail.com:werEk212 | Name = _Shracc_ | Optifine =  | Hypixel level = 3 | Mineplex = PLAYER
 ale-mauri@virgilio.it:roma0138 | Name = curvd_ | Optifine =  | Hypixel level = 8 | Mineplex = 
 palombolum@gmail.com:wafle12345 | Name = Palombolum | Optifine =  | Mineplex = 
