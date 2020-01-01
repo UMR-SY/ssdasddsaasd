@@ -1,5 +1,3 @@
-bloodsouliv@gmail.com:liutas112 | Name = bloodsouliv | Optifine =  | Hypixel level = 1 | Mineplex = 
-tomaslistr@gmail.com:605340775aaa | Name = MRDKA1 | Optifine =  | Mineplex = 
 dark4506@yandex.ru:b3b4b588b355 | Name = sL1Z3n | Optifine =  | HiveMC = Regular | Mineplex = player
 ghoulan@hotmail.com:19diablo91 | Name = blekfisen | Optifine =  | Hypixel level = 1 | HiveMC = Regular | Mineplex = PLAYER
 torhad@live.no:swordor4939 | Name = Linnet_Bird | Optifine =  | Mineplex = player
