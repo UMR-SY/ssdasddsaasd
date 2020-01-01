@@ -1,6 +1,3 @@
-Kjaal.kjaal@yahoo.no:kjell123456 | Name = kjellandre | Optifine =  | Hypixel level = 1 | HiveMC = Regular | Mineplex = player
-till0eng@gmail.com:Till1234 | Name = AtomicGreengo | Optifine =  | Hypixel level = 2 | HiveMC = Regular | Mineplex = player
-helenes-1991@hotmail.com:123Prolux123H | Name = xitellebelle | Optifine =  | Mineplex = 
 thomas@taunsig.dk:377ttl2001 | Name = Taunsig | Optifine =  | Hypixel level = 10 | Mineplex = 
 bigboss1060@Gmail.com:snakem10 | Name = BIGBOSS106 | Optifine =  | Hypixel level = 48 | HiveMC = Regular | Mineplex = PLAYER
 roka.tamas99@gmail.com:1234tamas | Name = RaptorX72 | Optifine =  | Mineplex = 
