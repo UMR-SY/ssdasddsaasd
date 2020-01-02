@@ -1,5 +1,3 @@
-xantussen@gmail.com:rednaxela2005 | Name = Nationalmuse | Optifine =  | Hypixel level = 9 | HiveMC = Regular | Mineplex = player
-alex32112300@walla.com:alex246800 | Name = Alexi13 | Optifine =  | Mineplex = 
 kzalewski0000@gmail.com:Zalu2000 | Name = zalu2020 | Optifine =  | Hypixel level = 1 | HiveMC = Regular | Mineplex = 
 antton.keranen@gmail.com:pellet12 | Name = AnTToN23 | Optifine =  | Hypixel level = 2 | Mineplex = PLAYER
 bjorsand@hotmail.com:imaj3956 | Name = mg200575 | Optifine =  | HiveMC = Regular | Mineplex = PLAYER
