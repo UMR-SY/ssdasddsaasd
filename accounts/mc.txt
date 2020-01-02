@@ -1,4 +1,3 @@
-oli@kallnet.fo:Ab123456 | Name = jenskitty | Optifine =  | Hypixel level = 1 | HiveMC = Regular | Mineplex = PLAYER
 domas.magelinskas@gmail.com:oskaras23 | Name = Domasas | Optifine =  | Mineplex = 
 thomsenix@gmail.com:T22986501t | Name = xHackerBoyx | Optifine =  | Hypixel level = 1 | Mineplex = 
 Jakelach8@gmail.com:Waterfall22 | Name = BellIeDelphine | Optifine =  | Hypixel level = 2 | HiveMC = Regular | Mineplex = PLAYER
