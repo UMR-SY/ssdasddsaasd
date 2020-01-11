@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
   .setTitle('Invite me')
   .setColor("#363940")
   .setDescription('Press"invite me" so you can invite the bot!') 
-  .setURL('https://discord.gg/ZkyNAYj')
+  .setURL('https://discord.gg/abtkjS6')
   
   message.channel.send(ree)
   

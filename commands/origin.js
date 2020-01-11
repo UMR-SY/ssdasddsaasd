@@ -29,12 +29,12 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Origin account',`\n**${account}**`)
             .setThumbnail('https://cdn.freebiesupply.com/logos/large/2x/origin-1-logo-png-transparent.png')
             .setColor("#363940")
-            .setFooter('Bot made by Norkez')
+            .setFooter('Bot made by zeusbaby')
             .setTimestamp();
 
             msg.author.send(embed);
 
-            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/zVHfvZp')
+            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/abtkjS6')
                 .then(m => {
                     setTimeout(() => {
                         m.delete();

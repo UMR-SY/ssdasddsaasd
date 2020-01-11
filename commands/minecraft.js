@@ -29,12 +29,12 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Minecraft account',`\n**${account}**`)
             .setThumbnail('https://img.favpng.com/15/6/5/minecraft-logo-video-game-clip-art-png-favpng-xVRMPYFWAtkbmyStQWfW8FG8p.jpg')
             .setColor("#363940")
-            .setFooter('Bot made by Norkez')
+            .setFooter('Bot made by zeusbaby')
             .setTimestamp();
 
             msg.author.send(embed);
 
-            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/zVHfvZp')
+            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/abtkjS6')
                 .then(m => {
                     setTimeout(() => {
                         m.delete();

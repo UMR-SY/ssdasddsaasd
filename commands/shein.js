@@ -29,12 +29,12 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Spotify account',`\n**${account}**`)
             .setThumbnail('https://i.pinimg.com/originals/b4/6a/f8/b46af8cef867c92bfca365c72656540e.jpg')
             .setColor("#363940")
-            .setFooter('Bot made by Norkez')
+            .setFooter('Bot made by zeusbaby')
             .setTimestamp();
 
             msg.author.send(embed);
 
-            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/zVHfvZp')
+            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/abtkjS6')
                 .then(m => {
                     setTimeout(() => {
                         m.delete();

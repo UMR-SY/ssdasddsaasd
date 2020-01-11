@@ -29,12 +29,12 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Nitro unchecked',`\n**${account}**`)
             .setThumbnail('https://www.google.ro/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FpsIIWROIvtM%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.pcinvasion.com%2Fdiscord-removes-games-from-nitro-subscription-service%2F&tbnid=nqusegdyPq8KDM&vet=12ahUKEwiq5d_rxtHmAhVLlxoKHSD0BeIQMygAegUIARDlAQ..i&docid=duNTYqQGJXOl9M&w=1280&h=720&q=nitro%20discord%20image%20100x100&client=opera&ved=2ahUKEwiq5d_rxtHmAhVLlxoKHSD0BeIQMygAegUIARDlAQ')
             .setColor("#363940")
-            .setFooter('Bot made by Norkez')
+            .setFooter('Bot made by zeusbaby')
             .setTimestamp();
 
             msg.author.send(embed);
 
-            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/zVHfvZp')
+            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/abtkjS6')
                 .then(m => {
                     setTimeout(() => {
                         m.delete();

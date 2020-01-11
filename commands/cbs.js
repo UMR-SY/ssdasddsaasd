@@ -29,12 +29,12 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('CBS account',`\n**${account}**`)
             .setThumbnail('https://www.newsobserver.com/latest-news/avjc8k/picture233449682/alternates/FREE_1140/CBS%20LOGO.jpg')
             .setColor("#363940")
-            .setFooter('Bot made by Norkez')
+            .setFooter('Bot made by zeusbaby')
             .setTimestamp();
 
             msg.author.send(embed);
 
-            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/zVHfvZp')
+            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/abtkjS6')
                 .then(m => {
                     setTimeout(() => {
                         m.delete();

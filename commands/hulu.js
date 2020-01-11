@@ -29,12 +29,12 @@ module.exports.run = async (client, msg, args, config) => {
             .addField('Hulu account',`\n**${account}**`)
             .setThumbnail('https://www.google.ro/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjMkrzh1vvlAhVDIMUKHTdmBHsQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.hulu.com%2F&psig=AOvVaw0ROZFwc7lBY_r7zazhhJmO&ust=1574438527052523')
             .setColor("#363940")
-            .setFooter('Bot made by Norkez')
+            .setFooter('Bot made by zeusbaby')
             .setTimestamp();
 
             msg.author.send(embed);
 
-            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/zVHfvZp')
+            msg.reply('I\'ve sent you the account! Please check your DM! __ Official Server Link__: https://discord.gg/abtkjS6')
                 .then(m => {
                     setTimeout(() => {
                         m.delete();
