@@ -27,7 +27,7 @@ module.exports.run = async (client, msg, args, config) => {
             let embed = new Discord.RichEmbed()
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
             .addField('Disney account',`\n**${account}**`)
-            .setThumbnail('https://www.google.ro/url?sa=i&source=images&cd=&ved=2ahUKEwi10LeL0_vlAhVELFAKHRFLDcUQjRx6BAgBEAQ&url=https%3A%2F%2Fvariety.com%2F2019%2Ftv%2Fnews%2Fdisney-appoints-jan-koeppen-to-lead-europe-middle-east-africa-1203354626%2F&psig=AOvVaw3fgIH6_8gzJ1pxWYwUWNaE&ust=1574437549681200')
+            .setThumbnail('https://www.google.ro/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjPtNDLt43nAhXKAewKHYh4D08QjRx6BAgBEAQ&url=https%3A%2F%2Fdotesports.com%2Fcounter-strike%2Fnews%2Fcomplexitys-straightline-decline-11692&psig=AOvVaw3pfBs1U93XQFV2aa4IeJ7h&ust=1579446668668487')
             .setColor("#363940")
             .setFooter('Bot made by babyyy')
             .setTimestamp();

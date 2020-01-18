@@ -27,7 +27,7 @@ module.exports.run = async (client, msg, args, config) => {
             let embed = new Discord.RichEmbed()
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
             .addField('Nitro unchecked',`\n**${account}**`)
-            .setThumbnail('https://www.google.ro/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FpsIIWROIvtM%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.pcinvasion.com%2Fdiscord-removes-games-from-nitro-subscription-service%2F&tbnid=nqusegdyPq8KDM&vet=12ahUKEwiq5d_rxtHmAhVLlxoKHSD0BeIQMygAegUIARDlAQ..i&docid=duNTYqQGJXOl9M&w=1280&h=720&q=nitro%20discord%20image%20100x100&client=opera&ved=2ahUKEwiq5d_rxtHmAhVLlxoKHSD0BeIQMygAegUIARDlAQ')
+            .setThumbnail('https://www.google.ro/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjPtNDLt43nAhXKAewKHYh4D08QjRx6BAgBEAQ&url=https%3A%2F%2Fdotesports.com%2Fcounter-strike%2Fnews%2Fcomplexitys-straightline-decline-11692&psig=AOvVaw3pfBs1U93XQFV2aa4IeJ7h&ust=1579446668668487')
             .setColor("#363940")
             .setFooter('Bot made by babyyy')
             .setTimestamp();

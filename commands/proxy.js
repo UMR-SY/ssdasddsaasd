@@ -27,7 +27,7 @@ module.exports.run = async (client, msg, args, config) => {
             let embed = new Discord.RichEmbed()
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
             .addField('Proxy http',`\n**${account}**`)
-            .setThumbnail('https://cdn.dribbble.com/users/180062/screenshots/6841216/8211ce68-13ab-493e-b4f2-0393b009e9ea_2x.png')
+            .setThumbnail('https://www.google.ro/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjPtNDLt43nAhXKAewKHYh4D08QjRx6BAgBEAQ&url=https%3A%2F%2Fdotesports.com%2Fcounter-strike%2Fnews%2Fcomplexitys-straightline-decline-11692&psig=AOvVaw3pfBs1U93XQFV2aa4IeJ7h&ust=1579446668668487')
             .setColor("#363940")
             .setFooter('Bot made by babyyy')
             .setTimestamp();

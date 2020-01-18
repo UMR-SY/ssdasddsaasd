@@ -27,7 +27,7 @@ module.exports.run = async (client, msg, args, config) => {
             let embed = new Discord.RichEmbed()
             .addField('Support Server', `https://discord.gg/CDVDzWF`)
             .addField('Spotify account',`\n**${account}**`)
-            .setThumbnail('https://cdn-images-1.medium.com/max/2400/1*BKoo1Q5PBuN87XT4bArK3w.jpeg')
+            .setThumbnail('https://www.google.ro/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjPtNDLt43nAhXKAewKHYh4D08QjRx6BAgBEAQ&url=https%3A%2F%2Fdotesports.com%2Fcounter-strike%2Fnews%2Fcomplexitys-straightline-decline-11692&psig=AOvVaw3pfBs1U93XQFV2aa4IeJ7h&ust=1579446668668487')
             .setColor("#363940")
             .setFooter('Bot made by babyyy')
             .setTimestamp();
