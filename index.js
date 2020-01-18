@@ -46,10 +46,10 @@ client.on('ready', function() {
       await client.user.setPresence({
         game: {
           name: `${statuslist[random]}`,
-          type: "PLAYING"
+          type: "Streaming"
           //url: 'https://www.twitch.tv/spokloo'
         },
-        status: "do not disturb"
+        status: "DND"
       });
     } catch (error) {
       console.error(error);
