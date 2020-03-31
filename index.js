@@ -36,9 +36,9 @@ client.on('warn', () => console.warn);
 client.on('ready', function() {
       setInterval(async () => {
     const statuslist = [
-      `$help | N-G | Serving ${client.guilds.size} servers`,
-      `$help | N-G | Serving ${client.channels.size} channels`,
-      `$help | N-G | Serving ${client.users.size} users`
+      `$help | Serving ${client.guilds.size} servers`,
+      `$help | Serving ${client.channels.size} channels`,
+      `$help | Serving ${client.users.size} users`
     ];
     const random = Math.floor(Math.random() * statuslist.length);
 
