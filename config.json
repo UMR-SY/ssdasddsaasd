@@ -1,5 +1,5 @@
 {
     "TOKEN": "your token" ,
     "PREFIX": "$",
-    "COOLDOWN": "5"
+    "COOLDOWN": "2"
 }
