@@ -6,8 +6,8 @@ module.exports.run = async (client, msg, args, config) => {
   if (cooldown.has(msg.author.id)) {
     msg
       .reply(
-        `You need to wait ${config.COOLDOWN} minutes to use this command again!`
-      )//Narcos Code
+        `Bu komutu tekrar kullanmak için ${config.COOLDOWN} dakika beklemeniz gerekiyor!`
+      ) //Narcos Code
       .then(m => {
         msg.delete();
 
@@ -40,7 +40,7 @@ module.exports.run = async (client, msg, args, config) => {
         .setTimestamp();
 
       msg.author.send(embed);
-
+      //Narcos Code
       msg.reply("DM kutuna bak").then(m => {
         setTimeout(() => {
           m.delete();

@@ -6,7 +6,7 @@ module.exports.run = async (client, msg, args, config) => {
   if (cooldown.has(msg.author.id)) {
     msg
       .reply(
-        `You need to wait ${config.COOLDOWN} minutes to use this command again!`
+        `Bu komutu tekrar kullanmak için ${config.COOLDOWN} dakika beklemeniz gerekiyor!`
       )
       .then(m => {
         msg.delete();
