@@ -1,16 +1,4 @@
-Welcome to my Bot.
-=================
-
-Click on (gen-bot-tutorial) and press on (Remix Project).
+# Narcos Code Tarafından Çevirilmiştir
 
 
-Youtube Tutorial
-------------
-
---------------------------------------------------------
-
-My discord: https://discord.gg/gEspR2F
-
---------------------------------------------------------
-
-https://youtu.be/kjoZlfEYnLU
+[Abone Olmayı Unutmayın](https://www.youtube.com/channel/UCD9s0x7OrF3XPmmV7AlBrhA)

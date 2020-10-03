@@ -25,7 +25,7 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Destek Sunucum', `https://discord.gg/tSbSEzc`)
+            .addField('Destek Sunucum', `https://discord.gg/gy9YfWC`)
             .addField('Spotify account',`\n**${account}**`)
             .setThumbnail('https://www.google.ro/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjPtNDLt43nAhXKAewKHYh4D08QjRx6BAgBEAQ&url=https%3A%2F%2Fdotesports.com%2Fcounter-strike%2Fnews%2Fcomplexitys-straightline-decline-11692&psig=AOvVaw3pfBs1U93XQFV2aa4IeJ7h&ust=1579446668668487')
             .setColor("#363940")

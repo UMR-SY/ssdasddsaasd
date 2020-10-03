@@ -1,13 +1,18 @@
-const Discord = require ("discord.js")
+const Discord = require("discord.js");
 
 exports.run = async (client, message) => {
   let embed = new Discord.RichEmbed()
-.setColor("#363940")       
-.setThumbnail('https://cdn.discordapp.com/attachments/668055807857786891/668110267804286986/bb4eac1d-40b0-406f-996a-7e8bc3d3fbda.png')
-.setFooter('©️ CopyRight Omega™️')
-.addField('__Help__','__**GENERATOR COMMANDS**__\n\n`$spotify` To Get A Spotify Account .\n`$cbs` To Get A cbs Account .\n`$disney` To Get A Disney Account.\n`$hulu` To Get A Hulu Account .\n`$minecraft` To Get A Minecraft Account .\n`$nitro` To Get A Nitro Code .\n`$nordvpn` To Get A NordVPN Account .\n`$origin` To Get A Origin Account .\n`$proxy` To Get A Proxy .\n`$shein` To Get A Shein Account .\n\n **✩** Remember that you are using the free generator, this accounts may not work !');
-message.channel.send(embed)
-}
+    .setColor("#363940")
+    .setThumbnail(
+      "https://cdn.discordapp.com/attachments/668055807857786891/668110267804286986/bb4eac1d-40b0-406f-996a-7e8bc3d3fbda.png"
+    )
+    .setFooter("©️ Narcos Gen™️")
+    .addField(
+      "__Yardım __ ",
+      " __ ** JENERATÖR KOMUTLARI ** __  n  n` $ spotify` Bir Spotify Hesabı Almak İçin.  N` $ cbs` Bir cbs Hesabı Almak İçin.  N` $ disney` Disney Hesabı Almak İçin.  n` $ hulu` Hulu Hesabı Almak İçin.  n` $ minecraft` Minecraft Hesabı Almak İçin.  n` $ nitro` Nitro Kodu Almak İçin.  n` $ nordvpn` NordVPN Hesabı Almak İçin.  n `$ origin` Bir Origin Hesabı Almak İçin.  n` $ proxy` Bir Proxy Almak İçin.  n` $ shein` Bir Shein Hesabı Almak İçin.  n  n ** ✩ ** Ücretsiz oluşturucuyu kullandığınızı unutmayın , bu hesaplar çalışmayabilir!"
+    );
+  message.channel.send(embed);
+};
 module.exports.help = {
-  name: 'help'
-}
+  name: "help"
+};
