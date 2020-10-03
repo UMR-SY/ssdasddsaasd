@@ -9,7 +9,7 @@ exports.run = async (client, message) => {
     .setFooter("©️ Narcos Gen™️")
     .addField(
       "__Yardım __ ",
-      " __ ** JENERATÖR KOMUTLARI ** __  n  n` $ spotify` Bir Spotify Hesabı Almak İçin.  N` $ cbs` Bir cbs Hesabı Almak İçin.  N` $ disney` Disney Hesabı Almak İçin.  n` $ hulu` Hulu Hesabı Almak İçin.  n` $ minecraft` Minecraft Hesabı Almak İçin.  n` $ nitro` Nitro Kodu Almak İçin.  n` $ nordvpn` NordVPN Hesabı Almak İçin.  n `$ origin` Bir Origin Hesabı Almak İçin.  n` $ proxy` Bir Proxy Almak İçin.  n` $ shein` Bir Shein Hesabı Almak İçin.  n  n ** ✩ ** Ücretsiz oluşturucuyu kullandığınızı unutmayın , bu hesaplar çalışmayabilir!"
+      " __ ** JENERATÖR KOMUTLARI ** __  \n  \n` ! spotify` Bir Spotify Hesabı Almak İçin.  \n` $ cbs` Bir cbs Hesabı Almak İçin.  \n` ! disney` Disney Hesabı Almak İçin.  \n` ! hulu` Hulu Hesabı Almak İçin.  \n` $ minecraft` Minecraft Hesabı Almak İçin.  \n` ! nitro` Nitro Kodu Almak İçin.  \n` ! nordvpn` NordVPN Hesabı Almak İçin.  \n ` ! origin` Bir Origin Hesabı Almak İçin.  \n` ! proxy` Bir Proxy Almak İçin.  \n` ! shein` Bir Shein Hesabı Almak İçin.  \\n  \n ** ✩ ** Ücretsiz oluşturucuyu kullandığınızı unutmayın , bu hesaplar çalışmayabilir!"
     );
   message.channel.send(embed);
 };
