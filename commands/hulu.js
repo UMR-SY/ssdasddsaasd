@@ -5,8 +5,10 @@ const cooldown = new Set();
 module.exports.run = async (client, msg, args, config) => {
   if (cooldown.has(msg.author.id)) {
     msg
-      .reply(`Bu komutu tekrar kullanmak için ${config.COOLDOWN} dakika beklemeniz gerekiyor!`)
-        
+      .reply(
+        `Bu komutu tekrar kullanmak için ${config.COOLDOWN} dakika beklemeniz gerekiyor!`
+      )
+
       .then(m => {
         msg.delete();
 
