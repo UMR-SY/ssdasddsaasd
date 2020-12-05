@@ -1,10 +1,10 @@
 {
-  "name": "accountgenbot",
+  "name": "narcos code gen bot",
   "version": "2.0.0",
   "description": "A recode of the first version lol",
   "main": "jewdev.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node narcosmain.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "ph"
   },
-  "homepage": "pornhub.com",
+  "homepage": "narcoscode",
   "dependencies": {
     "chalk": "^2.4.1",
     "discord.js": "^11.4.2"
